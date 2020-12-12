@@ -1,5 +1,16 @@
 # 更新日志
 
+## v7.3.3
+
+#### 功能改进
+
+- [#839](https://github.com/lmk123/crx-selection-translate/issues/839) 给历史记录中的网页标题添加最大宽度，避免网页标题过长导致翻译内容被挤压的问题。
+
+#### bug 修复
+
+- [#848](https://github.com/lmk123/crx-selection-translate/issues/848) 修复启用历史记录时，最近的一次翻译会被自动添加进历史记录的问题
+- [#845](https://github.com/lmk123/crx-selection-translate/issues/845) 修复网页翻译弹窗不可见时，全选（Ctrl + A）整个网页后再复制（Ctrl + C）出来的文本中包含网页翻译弹窗的内容的问题。
+
 ## v7.3.2
 
 #### 新功能
