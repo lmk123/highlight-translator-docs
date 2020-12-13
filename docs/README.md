@@ -16,7 +16,7 @@ features:
 
 ## 安装
 
-**划词翻译最新版本为 v7.2.4**。如果以下各商店显示的版本不是最新版本，则说明最新版本仍在此商店的审核流程当中。
+**划词翻译最新版本为 [v7.3.3](./log.html)**。如果以下各商店显示的版本不是最新版本，则说明最新版本仍在此商店的审核流程当中。
 
 ### Chrome 浏览器
 
@@ -31,7 +31,7 @@ Chrome 用户可以使用以下两种方式安装：
 
 ### Microsoft Edge 浏览器
 
-![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v7.2.3&color=informational&style=flat-square)
+![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v7.3.1&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.6/5&color=success&style=flat-square)
 
 Microsoft Edge 用户可以使用以下两种方式安装：

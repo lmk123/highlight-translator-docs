@@ -1,5 +1,65 @@
 # 更新日志
 
+## v7.3.3
+
+#### 功能改进
+
+- [#839](https://github.com/lmk123/crx-selection-translate/issues/839) 给历史记录中的网页标题添加最大宽度，避免网页标题过长导致翻译内容被挤压的问题。
+
+#### bug 修复
+
+- [#848](https://github.com/lmk123/crx-selection-translate/issues/848) 修复启用历史记录时，最近的一次翻译会被自动添加进历史记录的问题
+- [#845](https://github.com/lmk123/crx-selection-translate/issues/845) 修复网页翻译弹窗不可见时，全选（Ctrl + A）整个网页后再复制（Ctrl + C）出来的文本中包含网页翻译弹窗的内容的问题。
+
+## v7.3.2
+
+#### 新功能
+
+- [#791](https://github.com/lmk123/crx-selection-translate/issues/791) 现在可以调整翻译面板的字体和按钮的大小了，在【设置页】->【翻译面板】->【通用设置】当中。
+
+#### bug 修复
+
+- [#841](https://github.com/lmk123/crx-selection-translate/issues/841) 修复 v7.3.1 导致的在少部分网站中登录请求会失败的问题。
+- [#842](https://github.com/lmk123/crx-selection-translate/issues/842) 修复 v7.3.1 发布后在 Chrome 72 / Edge 78 及以下版本中划词翻译无法使用的问题。
+
+## v7.3.1
+
+#### 新功能
+
+- [#833](https://github.com/lmk123/crx-selection-translate/issues/833) 翻译结果中的英文单词现在可以直接点击翻译了。
+
+#### 功能改进
+
+- [#836](https://github.com/lmk123/crx-selection-translate/issues/836) 优化网页划词面板的定位方式：优先保证面板在可视范围内，即使可能会遮挡住选块；另外在之前版本中的，在文本框内选中文本翻译后会以文本框而不是选块进行定位，现在已经可以以选块进行精准定位了。
+- [#820](https://github.com/lmk123/crx-selection-translate/issues/820) 将深色模式下的翻译按钮图标底色改为白色。
+- 删除了内置 PDF 阅读器除了英语和中文以外的界面语言，从而减少了约 0.4MB 安装包大小。
+- 将内置 PDF 阅读器的版本从 2.4.456 升级到 2.5.207，[查看变更](https://github.com/mozilla/pdf.js/releases/tag/v2.5.207)
+- [#827](https://github.com/lmk123/crx-selection-translate/issues/827) 在浏览器自带的 PDF 阅读器里用右键菜单打开电脑里的 PDF 文件时，划词翻译内置 PDF 阅读器是空的，这是因为扩展程序无权限通过右键菜单读取本地文件，为此新增了一个提示告之用户。
+- 在选块滚动出浏览器可视范围的同时自动隐藏网页划词窗口。
+- 对复制结果的功能进行了优化：Whatsapp 网页版会保持聊天文本框始终处于聚焦状态，但点击了划词翻译的复制按钮会让它失去焦点，以至于用户需要重新点击文本框聚焦；现在对这一情况进行了优化，点击复制按钮不会让 Whatsapp 的聊天输入框失去焦点。
+
+#### bug 修复
+
+- 通过一些优化稍微缓解了网页划词窗口显示时的“闪烁”问题，后续版本会进一步优化此情况。
+
+## v7.3.0
+
+#### 新功能
+
+- [#464](https://github.com/lmk123/crx-selection-translate/issues/464) 添加收藏夹功能并默认开启。
+- [#242](https://github.com/lmk123/crx-selection-translate/issues/242) 添加历史记录功能并默认关闭。
+
+收藏夹和历史记录功能目前还比较“简陋”，未来会逐步完善，也欢迎大家向我提建议。
+
+#### 功能改进
+
+- 将翻译面板的设置图标和关闭图标对齐。
+
+#### bug 修复
+
+- [#823](https://github.com/lmk123/crx-selection-translate/issues/823) [#829](https://github.com/lmk123/crx-selection-translate/issues/829) [#830](https://github.com/lmk123/crx-selection-translate/issues/830) 修复一系列在部分内容较长的页面中划词翻译窗口有明显卡顿的问题。
+- 将谷歌翻译的错误提示时显示的测试链接改为正确的链接。
+
 ## v7.2.4
 
 #### 功能改进
