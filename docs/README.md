@@ -31,7 +31,7 @@ Chrome 用户可以使用以下两种方式安装：
 
 ### Microsoft Edge 浏览器
 
-![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v7.3.1&color=informational&style=flat-square)
+![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v7.3.3&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.6/5&color=success&style=flat-square)
 
 Microsoft Edge 用户可以使用以下两种方式安装：
