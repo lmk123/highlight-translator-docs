@@ -6,6 +6,8 @@
 
 [comment]: <> (- 添加了设置语音朗读 [#851 音量]&#40;https://github.com/lmk123/crx-selection-translate/issues/851&#41;和 [#459 语速]&#40;https://github.com/lmk123/crx-selection-translate/issues/459&#41;的选项。)
 
+[comment]: <> (- 添加了自动隐藏翻译按钮的设置项。)
+
 [comment]: <> (- [#835]&#40;https://github.com/lmk123/crx-selection-translate/issues/835&#41; 添加了一个快捷键“使用独立窗口翻译选中的文本”，默认为 Alt + S。)
 
 [comment]: <> (- 从 v7.4.0 起，划词翻译推出了会员功能，目前提供 [#47 数据同步]&#40;https://github.com/lmk123/crx-selection-translate/issues/47&#41;（同步设置、收藏夹与历史记录）、源文本处理（[#560 去掉换行符]&#40;https://github.com/lmk123/crx-selection-translate/issues/560&#41;、[#395 转换驼峰式与下划线式词组]&#40;https://github.com/lmk123/crx-selection-translate/issues/395&#41;）和自动复制功能，[查看会员功能介绍]&#40;/vip.html&#41;。)
