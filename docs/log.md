@@ -1,30 +1,30 @@
 # 更新日志
 
-[comment]: <> (## v7.4.0)
+## v7.4.0
 
-[comment]: <> (#### 新功能)
+#### 新功能
 
-[comment]: <> (- 添加了设置语音朗读 [#851 音量]&#40;https://github.com/lmk123/crx-selection-translate/issues/851&#41;和 [#459 语速]&#40;https://github.com/lmk123/crx-selection-translate/issues/459&#41;的选项。)
+- 添加了设置语音朗读 [#851 音量](https://github.com/lmk123/crx-selection-translate/issues/851)和 [#459 语速](https://github.com/lmk123/crx-selection-translate/issues/459)的选项。
 
-[comment]: <> (- 添加了自动隐藏翻译按钮的设置项。)
+- 添加了自动隐藏翻译按钮的设置项。
 
-[comment]: <> (- [#835]&#40;https://github.com/lmk123/crx-selection-translate/issues/835&#41; 添加了一个快捷键“使用独立窗口翻译选中的文本”，默认为 Alt + S。)
+- [#835](https://github.com/lmk123/crx-selection-translate/issues/835) 添加了一个快捷键“使用独立窗口翻译选中的文本”，默认为 Alt + S。
 
-[comment]: <> (- 从 v7.4.0 起，划词翻译推出了会员功能，目前提供 [#47 数据同步]&#40;https://github.com/lmk123/crx-selection-translate/issues/47&#41;（同步设置、收藏夹与历史记录）、源文本处理（[#560 去掉换行符]&#40;https://github.com/lmk123/crx-selection-translate/issues/560&#41;、[#395 转换驼峰式与下划线式词组]&#40;https://github.com/lmk123/crx-selection-translate/issues/395&#41;）和自动复制功能，[查看会员功能介绍]&#40;/vip.html&#41;。)
+- 从 v7.4.0 起，划词翻译推出了会员功能，目前提供 [#47 数据同步](https://github.com/lmk123/crx-selection-translate/issues/47)（同步设置、收藏夹与历史记录）、源文本处理（[#560 去掉换行符](https://github.com/lmk123/crx-selection-translate/issues/560)、[#395 转换驼峰式与下划线式词组](https://github.com/lmk123/crx-selection-translate/issues/395)）和自动复制功能，[查看会员功能介绍](/vip.html)。
 
-[comment]: <> (#### 功能改进)
+#### 功能改进
 
-[comment]: <> (- [#855]&#40;https://github.com/lmk123/crx-selection-translate/issues/855&#41; 对辅助键进行了改进，除了 Ctrl / ⌘，现在可以额外使用 Alt / ⌥ 和 Shift 键作为辅助键，并且可以组合使用。另外，现在还可以选择在按下辅助键后开启鼠标悬浮取词或是让网页里的链接可以被划选。)
+- [#855](https://github.com/lmk123/crx-selection-translate/issues/855) 对辅助键进行了改进，除了 Ctrl / ⌘，现在可以额外使用 Alt / ⌥ 和 Shift 键作为辅助键，并且可以组合使用。另外，现在还可以选择在按下辅助键后开启鼠标悬浮取词或是让网页里的链接可以被划选。
 
-[comment]: <> (- [#278]&#40;https://github.com/lmk123/crx-selection-translate/issues/278&#41; 将划词翻译图标上的 “off” 字样改为让图标变灰。)
+- [#278](https://github.com/lmk123/crx-selection-translate/issues/278) 将划词翻译图标上的 “off” 字样改为让图标变灰。
 
-[comment]: <> (#### bug 修复)
+#### bug 修复
 
-[comment]: <> (- [#852]&#40;https://github.com/lmk123/crx-selection-translate/issues/852&#41; 修复百度翻译在指定目标语种为英语时，翻译中文后翻译结果会出现乱码的问题，顺便让百度翻译中文词组时提供的结果更加详细了。)
+- [#852](https://github.com/lmk123/crx-selection-translate/issues/852) 修复百度翻译在指定目标语种为英语时，翻译中文后翻译结果会出现乱码的问题，顺便让百度翻译中文词组时提供的结果更加详细了。
 
-[comment]: <> (- [#824]&#40;https://github.com/lmk123/crx-selection-translate/issues/824&#41; 修复在调整页面缩放或大小之后，固定状态下的翻译弹窗没有显示在浏览器可视范围内的问题。)
+- [#824](https://github.com/lmk123/crx-selection-translate/issues/824) 修复在调整页面缩放或大小之后，固定状态下的翻译弹窗没有显示在浏览器可视范围内的问题。
 
-[comment]: <> (- [#856]&#40;https://github.com/lmk123/crx-selection-translate/issues/856&#41; 修复在文本框内输入文字时会触发网页或浏览器的快捷键的问题。)
+- [#856](https://github.com/lmk123/crx-selection-translate/issues/856) 修复在文本框内输入文字时会触发网页或浏览器的快捷键的问题。
 
 ## v7.3.3
 
