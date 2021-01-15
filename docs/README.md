@@ -14,6 +14,8 @@ features:
   details: 仅 Chrome 就有 20 多万的活跃用户。
 ---
 
+<global-header />
+
 ## 安装
 
 **划词翻译最新版本为 <LatestVersion />**。如果以下各商店显示的版本不是最新版本，则说明最新版本仍在此商店的审核流程当中。

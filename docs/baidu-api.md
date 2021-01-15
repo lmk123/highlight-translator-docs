@@ -1,3 +1,5 @@
+<global-header />
+
 # 申请百度翻译 API ID 的图文步骤
 
 申请百度翻译 API 只需要四步，并且百度翻译官方接口是免费使用的，详细介绍见[官方接口介绍](use-official-api.html)。
