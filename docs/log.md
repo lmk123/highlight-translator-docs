@@ -1,5 +1,14 @@
 # 更新日志
 
+## v7.4.1
+
+#### bug 修复
+
+- **修复了谷歌翻译间歇性无法使用的问题。**
+- [#871](https://github.com/lmk123/crx-selection-translate/issues/871) 修复了百度翻译在特定情况下会一直处于加载状态、不显示结果的问题。
+- [#872](https://github.com/lmk123/crx-selection-translate/issues/872) 修复了翻译按钮在部分网站显示错位的问题。
+- [#551](https://github.com/lmk123/crx-selection-translate/issues/551) 修复了在部分网站的编辑页面（例如有道云笔记）会错误的显示翻译按钮的问题。
+
 ## v7.4.0
 
 #### 新功能

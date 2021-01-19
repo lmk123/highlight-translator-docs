@@ -18,13 +18,13 @@ features:
 
 **划词翻译最新版本为 <LatestVersion />**。如果以下各商店显示的版本不是最新版本，则说明最新版本仍在此商店的审核流程当中。
 
-### Chrome 浏览器
+### Google Chrome 浏览器
 
 ![Chrome 扩展商店版本](https://img.shields.io/chrome-web-store/v/ikhdkkncnoglghljlkmcimlnlhkeamad.svg?style=flat-square&label=版本)
 ![Chrome 扩展商店用户数](https://img.shields.io/chrome-web-store/d/ikhdkkncnoglghljlkmcimlnlhkeamad.svg?style=flat-square&label=用户数)
 ![Chrome 扩展商店评分](https://img.shields.io/chrome-web-store/rating/ikhdkkncnoglghljlkmcimlnlhkeamad?style=flat-square&label=评分)
 
-Chrome 用户可以使用以下两种方式安装：
+Google Chrome 用户可以使用以下两种方式安装：
 
 - 去 [Chrome 扩展商店](https://chrome.google.com/webstore/detail/ikhdkkncnoglghljlkmcimlnlhkeamad)在线安装。新版本提交后大概 2 个工作日完成审核。
 - [下载离线安装包手动安装](./install.html)（打不开 Chrome 扩展商店和想要使用仍在审核当中的最新版本的用户可以用这种方式）
