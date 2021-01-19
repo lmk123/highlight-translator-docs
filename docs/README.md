@@ -41,14 +41,14 @@ Microsoft Edge 用户可以使用以下两种方式安装：
 - 去 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。新版本提交后大概 5 个工作日完成审核。
 - [下载离线安装包手动安装](./install.html)（想要使用仍在审核当中的最新版本的用户可以用这种方式）
 
-### Firefox 浏览器
+### Mozilla Firefox 浏览器
 
 ![Firefox 扩展商店版本](https://img.shields.io/amo/v/hcfy?style=flat-square&label=版本)
 ![Firefox 扩展商店用户数](https://img.shields.io/amo/users/hcfy?style=flat-square&label=用户数)
 ![Firefox 扩展商店评分](https://img.shields.io/amo/rating/hcfy?style=flat-square&label=评分)
 ![Firefox 扩展商店周下载量](https://img.shields.io/amo/dw/hcfy?style=flat-square&label=周下载量)
 
-Firefox 用户请到 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。新版本提交后大概 10 分钟完成审核。
+Mozilla Firefox 用户请到 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。新版本提交后大概 10 分钟完成审核。
 
 [划词翻译大事记](./histroy.html)
 
