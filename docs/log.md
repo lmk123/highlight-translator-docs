@@ -2,6 +2,16 @@
 
 # 更新日志
 
+## v7.4.2
+
+#### bug 修复
+
+- 集中解决了子页面（iframe）相关的问题：
+  - [#834](https://github.com/lmk123/crx-selection-translate/issues/834) 在 iframe 内划词后弹窗的显示范围会被限制在 iframe 内，导致可视区域很小，显示不全
+  - [#840](https://github.com/lmk123/crx-selection-translate/issues/840) 在 iframe 内划词后，弹窗会被遮挡
+  - [#241](https://github.com/lmk123/crx-selection-translate/issues/241) 页面上动态新增的 iframe 无法划词，e.g. 开启了 “Just Read” 扩展之后的页面不能划词
+  - [#873](https://github.com/lmk123/crx-selection-translate/issues/873) 有的 iframe 宽度很小，导致被划词翻译的弹窗撑开了宽度，e.g. B 站的消息菜单被撑开出现了横向滚动条
+
 ## v7.4.1
 
 #### bug 修复
