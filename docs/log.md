@@ -4,9 +4,15 @@
 
 ## v7.4.2
 
+#### 功能改进
+
+- [#773](https://github.com/lmk123/crx-selection-translate/issues/773) 源语种现在可以临时切换了，这样当自动检测语种不准确的时候可以临时切换源语种重新查询了。
+
 #### bug 修复
 
-- 集中解决了子页面（iframe）相关的问题：
+- [#878](https://github.com/lmk123/crx-selection-translate/issues/878) 修复内置 PDF 阅读器没有正确跳转到指定页面的问题。
+- [#882](https://github.com/lmk123/crx-selection-translate/issues/882) 修复带有`'`和`-`的英文短语没有正确解析成链接的情况。
+- **集中解决了子页面（iframe）相关的问题：**
   - [#834](https://github.com/lmk123/crx-selection-translate/issues/834) 在 iframe 内划词后弹窗的显示范围会被限制在 iframe 内，导致可视区域很小，显示不全
   - [#840](https://github.com/lmk123/crx-selection-translate/issues/840) 在 iframe 内划词后，弹窗会被遮挡
   - [#241](https://github.com/lmk123/crx-selection-translate/issues/241) 页面上动态新增的 iframe 无法划词，e.g. 开启了 “Just Read” 扩展之后的页面不能划词
