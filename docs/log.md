@@ -2,6 +2,13 @@
 
 # 更新日志
 
+## v7.4.3
+
+#### 新功能
+
+- [#884](https://github.com/lmk123/crx-selection-translate/issues/884) **添加 DeepL 翻译源。**
+- [#879](https://github.com/lmk123/crx-selection-translate/issues/879) 添加这些翻译源的外部跳转链接：阿里翻译、腾讯翻译君、搜狗翻译、金山词霸、有道词典。
+
 ## v7.4.2
 
 #### 功能改进
