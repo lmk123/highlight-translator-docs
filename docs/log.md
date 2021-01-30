@@ -2,6 +2,13 @@
 
 # 更新日志
 
+## v7.4.4（未发布）
+
+#### bug 修复
+
+- [#885](https://github.com/lmk123/crx-selection-translate/issues/885) 修复 v7.4.2 引入的一个 bug：在文本框中用 Ctrl + A 全选文本后，按下辅助键没有弹出翻译结果的问题
+- [#886](https://github.com/lmk123/crx-selection-translate/issues/886) 修复在特定页面中会让页面出现双滚动条的问题
+
 ## v7.4.3
 
 #### 新功能
