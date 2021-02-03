@@ -7,6 +7,9 @@
 #### bug 修复
 
 - 修复 Chrome 88 无法使用 DeepL 翻译源的问题。
+- [#890](https://github.com/lmk123/crx-selection-translate/issues/890) 修复在少部分页面将网页滚动到下方之后，翻译按钮没有正确显示在鼠标附近的问题。
+- [#883](https://github.com/lmk123/crx-selection-translate/issues/883) 修复 v7.4.1 引入的一个 bug：在“修复了在部分网站的编辑页面（例如有道云笔记）会错误的显示翻译按钮的问题。”时误将翻译文本中的换行给去掉了，导致翻译结果没有正确的换行。
+- [#897](https://github.com/lmk123/crx-selection-translate/issues/897) 修复 v7.4.2 引入的一个 bug：在“集中解决了子页面（iframe）相关的问题”之后，在部分子页面中（例如有道云笔记的文件预览区域）无法划词的问题
 
 ## v7.4.4
 
