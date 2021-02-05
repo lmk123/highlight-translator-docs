@@ -2,6 +2,12 @@
 
 # 更新日志
 
+## v7.4.6
+
+#### bug 修复
+
+- [#898](https://github.com/lmk123/crx-selection-translate/issues/898) 修复 v7.4.5 引入的 bug：在修复 #883 时误将小写字母 a 也从划选的文本中删除了，导致翻译结果不正确。
+
 ## v7.4.5
 
 #### bug 修复
