@@ -2,6 +2,12 @@
 
 # 更新日志
 
+## v7.4.7
+
+#### bug 修复
+
+- [#901](https://github.com/lmk123/crx-selection-translate/issues/901) 继续尝试修复在 v7.4.2 之后出现的部分网页划词后没有反应的问题。
+
 ## v7.4.6
 
 #### bug 修复
