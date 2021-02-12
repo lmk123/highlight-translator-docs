@@ -33,13 +33,11 @@ Google Chrome 用户可以使用以下两种方式安装：
 
 ### Microsoft Edge 浏览器
 
-![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v7.4.5&color=informational&style=flat-square)
+![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v7.4.7&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.6/5&color=success&style=flat-square)
 
 :::warning v7.4.5 有比较严重的 bug
-Edge 扩展商店现在的版本 v7.4.5 有比较严重的 bug，会将文本中的小写字母 a 从文本中去掉，导致查询出来的翻译结果不正确，请临时下载离线安装包 v7.4.7 避免这个问题。
-
-我也已经将 v7.4.7 提交了审核，但 Edge 审核较慢，大概需要 10 个工作日才能上架。
+Edge 扩展商店现在的版本 v7.4.5 有比较严重的 bug，会将文本中的小写字母 a 从文本中去掉，导致查询出来的翻译结果不正确，请更新到 v7.4.7 避免这个问题。
 :::
 
 Microsoft Edge 用户可以使用以下两种方式安装：
