@@ -29,7 +29,7 @@ features:
 Google Chrome 用户可以使用以下两种方式安装：
 
 - 去 [Chrome 扩展商店](https://chrome.google.com/webstore/detail/ikhdkkncnoglghljlkmcimlnlhkeamad)在线安装。新版本提交后大概 2 个工作日完成审核。
-- [下载离线安装包手动安装](./install.html)（打不开 Chrome 扩展商店和想要使用仍在审核当中的最新版本的用户可以用这种方式）
+- [下载离线安装包手动安装](./install.html)（打不开 Chrome 扩展商店、想要使用历史版本或仍在审核当中的最新版本的用户可以用这种方式）
 
 ### Microsoft Edge 浏览器
 
@@ -39,7 +39,7 @@ Google Chrome 用户可以使用以下两种方式安装：
 Microsoft Edge 用户可以使用以下两种方式安装：
 
 - 去 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。新版本提交后大概 5 个工作日完成审核。
-- [下载离线安装包手动安装](./install.html)（想要使用仍在审核当中的最新版本的用户可以用这种方式）
+- [下载离线安装包手动安装](./install.html)（想要使用历史版本或仍在审核当中的最新版本的用户可以用这种方式）
 
 ### Mozilla Firefox 浏览器
 
