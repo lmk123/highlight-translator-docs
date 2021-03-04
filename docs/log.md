@@ -2,6 +2,13 @@
 
 # 更新日志
 
+## v7.5.2
+
+#### bug 修复
+
+- [#918](https://github.com/lmk123/crx-selection-translate/issues/918) 修复自动复制设置项更改后不生效的问题
+- [#916](https://github.com/lmk123/crx-selection-translate/issues/916) 尝试修复用户反馈划词翻译会导致浏览器崩溃的问题
+
 ## v7.5.1
 
 #### 功能改进
