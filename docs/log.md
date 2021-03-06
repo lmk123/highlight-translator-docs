@@ -6,8 +6,8 @@
 
 #### bug 修复
 
-- [#918](https://github.com/lmk123/crx-selection-translate/issues/918) 修复自动复制设置项更改后不生效的问题
-- [#916](https://github.com/lmk123/crx-selection-translate/issues/916) 尝试修复用户反馈划词翻译会导致浏览器崩溃的问题
+- [#918](https://github.com/lmk123/crx-selection-translate/issues/918) 修复“自动复制”选项更改后不生效的问题。
+- [#916](https://github.com/lmk123/crx-selection-translate/issues/916) 修复用户反馈 v7.4.7 及之后的划词翻译会导致浏览器崩溃的问题。
 
 ## v7.5.1
 
@@ -17,7 +17,7 @@
 
 #### bug 修复
 
-- [#916](https://github.com/lmk123/crx-selection-translate/issues/916) 尝试修复用户反馈升级到 v7.5.0 之后划词翻译会导致浏览器崩溃的问题
+- [#916](https://github.com/lmk123/crx-selection-translate/issues/916) 尝试修复用户反馈 v7.4.7 及之后的划词翻译会导致浏览器崩溃的问题。
 
 ## v7.5.0
 
