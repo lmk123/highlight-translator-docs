@@ -2,6 +2,14 @@
 
 # 更新日志
 
+## v7.5.3
+
+#### 功能改进
+
+- [#917](https://github.com/lmk123/crx-selection-translate/issues/917) 成为会员后，会把没有成为会员时的收藏夹和历史记录也上传到服务器。
+- [#914](https://github.com/lmk123/crx-selection-translate/issues/914) 在翻译面板内部滚动到底时不会触发网页自身的滚动条滚动了。
+- [#915](https://github.com/lmk123/crx-selection-translate/issues/915) 限制百度官方接口每秒只请求一次，这样可以避免标准版百度官方接口翻译中文或三击选段时报 54003 的错误。
+
 ## v7.5.2
 
 #### bug 修复
