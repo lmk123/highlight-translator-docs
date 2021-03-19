@@ -7,6 +7,7 @@
 #### 功能改进
 
 - 必应词典的网络释义会作为翻译结果显示出来
+- [#936](https://github.com/lmk123/crx-selection-translate/issues/936) 改善了谷歌翻译的结果偶尔跟 [translate.google.cn](https://translate.google.cn) 不一样的情况，但并不能完全杜绝，原因见[常见问题](faq.md)。
 
 #### bug 修复
 
