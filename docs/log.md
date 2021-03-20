@@ -2,12 +2,15 @@
 
 # 更新日志
 
-## v7.5.6（未发布）
+## v7.5.6
 
 #### 功能改进
 
 - 必应词典的网络释义会作为翻译结果显示出来
 - [#936](https://github.com/lmk123/crx-selection-translate/issues/936) 改善了谷歌翻译的结果偶尔跟 [translate.google.cn](https://translate.google.cn) 不一样的情况，但并不能完全杜绝，原因见[常见问题](faq.md)。
+- [#922](https://github.com/lmk123/crx-selection-translate/issues/922) 在扩展图标弹窗中添加了“在当前网站中启用”的按钮
+- [#803](https://github.com/lmk123/crx-selection-translate/issues/803) 内置 PDF 阅读器的缩放设置项现在会被保存下来，这样下次打开时会使用上次选择的缩放值。
+- 将默认翻译源由百度翻译改为了谷歌翻译、DeepL 和必应词典。对已经安装了划词翻译的用户无影响。
 
 #### bug 修复
 
