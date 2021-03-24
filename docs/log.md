@@ -2,6 +2,13 @@
 
 # 更新日志
 
+## v7.5.7（未发布）
+
+#### bug 修复
+
+- [#941](https://github.com/lmk123/crx-selection-translate/issues/941) 修复点击关闭按钮的边缘时翻译弹窗没有关闭的问题。
+- [#937](https://github.com/lmk123/crx-selection-translate/issues/937) 修复翻译结果是过长的英文字符时会导致网页撑开横向滚动条的问题。
+
 ## v7.5.6
 
 #### 功能改进
