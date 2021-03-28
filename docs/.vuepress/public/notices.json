@@ -7,14 +7,5 @@
       "noFree": true,
       "noForever": true
     }
-  },
-  {
-    "id": 1,
-    "title": "测试通知",
-    "text": "如果你看到了这条通知，请忽略，我正在测试通知功能。",
-    "filter": {
-      "noFree": true,
-      "noVip": true
-    }
   }
 ]
