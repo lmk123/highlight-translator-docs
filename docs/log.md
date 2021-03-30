@@ -1,5 +1,15 @@
 # 更新日志
 
+## v7.5.9
+
+#### 新功能
+
+从现在起，划词翻译支持使用 [CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS) 自定义翻译面板的样式了，欢迎大家[分享你们的样式](https://github.com/lmk123/crx-selection-translate/discussions/950)！
+
+#### bug 修复
+
+- [#948](https://github.com/lmk123/crx-selection-translate/issues/948) 修复禁用网页划词并开启“固定模式下忽略黑白名单规则”的情况下，划词后会出现翻译按钮的问题
+
 ## v7.5.8
 
 #### 新功能
