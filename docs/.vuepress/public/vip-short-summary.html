@@ -1,13 +1,106 @@
-<div class="bp3-callout bp3-intent-primary" style="margin-bottom:20px">
+<div class='bp3-callout bp3-intent-primary' style='margin-bottom:20px'>
   即日起至 2021 年 4 月 9 日，购买过年费会员的用户在购买永久会员时可以减免 30 元。
 </div>
-<p>会员的价格为 3 元 / 月、30 元 / 年或 98 元 / 永久，开通后即可使用以下功能：</p>
-<ul class="bp3-list">
-  <li>数据同步：自动将你的设置、收藏夹和历史记录上传到划词翻译服务器并在不同浏览器之间同步。</li>
-  <li>网页翻译（v7.5.4 新增）：解除每天只能使用 5 次网页翻译的限制。</li>
-  <li>截图翻译（v7.5.0 新增）：解除每天只能使用 10 次截图翻译的限制。</li>
-  <li>系统语音（v7.4.8 新增）：可以选择自定义系统语音的口音（例如使用粤语朗读中文）和指定系统语音朗读特定语言（例如使用 Edge 浏览器提供的 Yaoyao 朗读简体中文）。</li>
-  <li>快捷链接（v7.5.7 新增）：解除最多添加 5 个快捷链接的限制。</li>
-  <li>源文本处理：在翻译之前对文本进行处理以提高翻译准确度，目前支持去掉换行符、去掉双斜线和转换驼峰式与下划线式词组。</li>
-  <li>自动复制：在翻译后自动将翻译结果复制进剪切板。</li>
+<style>
+#price-table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#price-table td, #price-table th {
+  text-align: center;
+}
+
+#price-table .help {
+  display: inline-block;
+  font-size: 12px;
+  width: 14px;
+  height: 14px;
+  background-color: #5C7080;
+  border-radius: 7px;
+  line-height: 14px;
+  text-align: center;
+  margin-left: 3px;
+  cursor: help;
+  color: #fff;
+}
+</style>
+
+<p>会员分为三种：月费会员（3 元 / 月）、年费会员（30 元 / 年）和永久会员（98 元 / 永久）。</p>
+<table
+  id='price-table'
+  class='bp3-html-table bp3-html-table-bordered bp3-html-table-condensed bp3-html-table-striped bp3-small'>
+  <colgroup>
+    <col style='width: 120px'>
+  </colgroup>
+  <thead>
+  <tr>
+    <th>功能</th>
+    <th>非会员用户</th>
+    <th>月费 / 年费 / 永久会员</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>基础功能<span class='help'
+                  title='所有翻译源、深色模式、快捷键、辅助键、独立翻译窗口、PDF 阅读器等。'>?</span>
+    </td>
+    <td colspan='2'>可用</td>
+  </tr>
+  <tr>
+    <td>网页划词</td>
+    <td colspan='2'>可用</td>
+  </tr>
+  <tr>
+    <td>数据同步<span class='help'
+                  title='自动将你的设置、收藏夹和历史记录上传到划词翻译服务器并在不同浏览器之间同步，即使卸载了划词翻译也不会丢失数据。'>?</span>
+    </td>
+    <td>不可用</td>
+    <td>可用</td>
+  </tr>
+  <tr>
+    <td>截图翻译</td>
+    <td> 10 次 / 天</td>
+    <td>无限制</td>
+  </tr>
+  <tr>
+    <td>网页翻译</td>
+    <td>5 次 / 天</td>
+    <td>无限制</td>
+  </tr>
+  <tr>
+    <td>快捷链接<span class='help'
+                  title='可配置的链接，可以便捷的跳转到诸如谷歌搜索、维基百科等用划选的文本进行搜索的网站。'>?</span>
+    </td>
+    <td>最多 5 个</td>
+    <td>无限制</td>
+  </tr>
+  <tr>
+    <td>系统语音<span class='help'
+                  title='使用浏览器或操作系统自带的语音朗读文本。'>?</span></td>
+    <td>可用，但有限制<span class='help'
+                     title='不能设置口音（例如使用粤语朗读中文）；不能指定系统语音朗读特定的语言（例如使用 Edge 浏览器提供的 Yaoyao 朗读简体中文）。'>?</span>
+    </td>
+    <td>无限制</td>
+  </tr>
+  <tr>
+    <td>源文本处理<span class='help'
+                   title='在翻译之前对文本进行处理以提高翻译准确度，目前支持去掉换行符（\n）、去掉双斜线（//）和转换驼峰式与下划线式词组（将 someData 转为 some data、将 click_by_user 转为 click by user）。'>?</span>
+    </td>
+    <td>不可用</td>
+    <td>可用</td>
+  </tr>
+  <tr>
+    <td>自动复制<span class='help'
+                  title='在翻译后自动将翻译结果复制进剪切板。'>?</span></td>
+    <td>不可用</td>
+    <td>可用</td>
+  </tr>
+  </tbody>
+</table>
+<p>注意事项：</p>
+<ul class='bp3-list'>
+  <li>会员账号最多同时登录 4 个浏览器。</li>
+  <li>由于历史记录数据量较大，划词翻译服务器会将历史记录保存 60 天后删除。已经保存在浏览器中的历史记录不受影响。</li>
+  <li>收藏夹上限目前为 1000 个。</li>
 </ul>
