@@ -2,14 +2,14 @@
 sidebar: false
 home: true
 heroText: 划词翻译
-tagline: 简单好用的划词与截图翻译扩展
+tagline: 简单好用的划词 / 截图 / 网页翻译扩展
 actionText: 立刻安装 ↓
 actionLink: /#安装
 features:
 - title: 简单好用
   details: 界面简洁，使用方便。”非常美观，让我在 Windows 上有了用 macOS 的感觉！“——来自用户 Binghui Zhang 的评价。
 - title: 功能丰富
-  details: 支持谷歌、百度、有道和 DeepL，可以对比、朗读和复制翻译结果。能在 PDF 里使用。除了用鼠标划词和截图，还支持辅助键、快捷键、悬浮取词。
+  details: 支持谷歌、DeepL、必应词典、百度、有道，能对比、朗读、复制翻译结果。能在 PDF 里使用。支持划词 / 截图 / 网页翻译，辅助键、快捷键、悬浮取词。
 - title: 持续更新
   details: 自 2013 年 5 月 18 日发布第一个版本至今，划词翻译已持续维护了 7 年时间，仅 Chrome 就有近 30 万的活跃用户。
 ---
