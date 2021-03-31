@@ -49,5 +49,3 @@ Microsoft Edge 用户可以使用以下两种方式安装：
 Mozilla Firefox 用户请到 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。新版本提交后大概 10 分钟完成审核。
 
 [划词翻译大事记](./histroy.html)
-
-<global-footer />
