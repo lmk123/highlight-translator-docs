@@ -1,3 +1,4 @@
+<!-- 第一个元素必须是一个 div，空的也行，不然下面的 style 会被过滤掉 -->
 <div class='bp3-callout bp3-intent-primary' style='margin-bottom:20px'>
   即日起至 2021 年 4 月 9 日，购买过年费会员的用户在购买永久会员时可以减免 30 元。
 </div>
@@ -23,6 +24,10 @@
   margin-left: 3px;
   cursor: help;
   color: #fff;
+}
+
+#price-summary {
+  cursor: pointer;
 }
 </style>
 
@@ -98,9 +103,12 @@
   </tr>
   </tbody>
 </table>
-<p>注意事项：</p>
-<ul class='bp3-list'>
-  <li>会员账号最多同时登录 4 个浏览器。</li>
-  <li>由于历史记录数据量较大，划词翻译服务器会将历史记录保存 60 天后删除。已经保存在浏览器中的历史记录不受影响。</li>
-  <li>收藏夹上限为 1,000 个。</li>
-</ul>
+<details>
+  <summary id='price-summary'>注意事项</summary>
+  <ul class='bp3-list'>
+    <li>会员账号最多同时登录 4 个浏览器。</li>
+    <li>由于历史记录数据量较大，划词翻译服务器会将历史记录保存 60 天后删除。已经保存在浏览器中的历史记录不受影响。</li>
+    <li>收藏夹上限为 1,000 个。</li>
+  </ul>
+</details>
+
