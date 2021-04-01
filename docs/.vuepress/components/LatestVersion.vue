@@ -1,3 +1,3 @@
 <template>
-  <a href="/log.html">v7.5.9</a>
+  <a href="/log.html">v7.5.10</a>
 </template>
