@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/baidu-api.html",
+      "destination": "/services/baidu-api.html"
+    },
+    {
+      "source": "/baidu-ocr.html",
+      "destination": "/services/baidu-ocr.html"
+    },
+    {
+      "source": "/youdao-api.html",
+      "destination": "/services/youdao-api.html"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 module.exports = {
   title: '划词翻译',
   description: '让浏览不同语言的网站变得无比轻松的浏览器扩展程序。',
-  head: [['link', { rel: 'icon', href: './logo.png' }]],
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   plugins: [
     '@vuepress/nprogress',
     '@vuepress/back-to-top',
@@ -15,9 +15,9 @@ module.exports = {
   ],
   themeConfig: {
     sidebar: 'auto',
-    logo: './logo.png',
+    logo: '/logo.png',
     smoothScroll: true,
-    lastUpdated: '上次更新', // string | boolean
+    lastUpdated: '上次更新',
     nav: [
       { text: '首页', link: '/' },
       { text: '常见问题', link: '/faq.html' },

@@ -28,13 +28,13 @@
 
 打开百度翻译开放平台 [https://fanyi-api.baidu.com/](https://fanyi-api.baidu.com/) 并登录你的百度账号，登录成功后点击「管理控制台」。
 
-![划词翻译申请百度翻译官方接口第一步](./.vuepress/public/baidu-api-1.png)
+![划词翻译申请百度翻译官方接口第一步](../.vuepress/public/baidu-api-1.png)
 
 ### 第二步：注册成为百度翻译开发者
 
 第一次进入管理控制台会让你注册成为百度翻译开发者，如下图。选择「个人开发者」并填写表单后点击「下一步」。**注册成功后会让你进行身份认证，点击「取消」就行。**
 
-![划词翻译申请百度翻译官方接口第二步](./.vuepress/public/baidu-api-step-2.png)
+![划词翻译申请百度翻译官方接口第二步](../.vuepress/public/baidu-api-step-2.png)
 
 ### 第三步：开通「通用翻译服务」
 
