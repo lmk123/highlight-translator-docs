@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/404.html"
     }
   ],
   "redirects": [
@@ -17,6 +17,10 @@
     {
       "source": "/youdao-api.html",
       "destination": "/services/youdao-api.html"
+    },
+    {
+      "source": "/use-official-api.html",
+      "destination": "/notices/use-official-api.html"
     }
   ]
 }
