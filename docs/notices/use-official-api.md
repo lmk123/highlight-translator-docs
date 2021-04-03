@@ -55,8 +55,8 @@ sidebar: auto
 
 我写了详细的步骤供你参考：
 
-- [获取百度翻译官方接口的步骤](baidu-api.html)
-- [获取有道翻译官方接口的步骤](youdao-api.html)
+- [获取百度翻译官方接口的步骤](../services/baidu-api.html)
+- [获取有道翻译官方接口的步骤](../services/youdao-api.html)
 
 不超过 10 分钟即可完成。
 
