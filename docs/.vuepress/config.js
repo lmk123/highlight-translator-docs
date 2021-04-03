@@ -22,6 +22,7 @@ module.exports = {
         sidebarDepth: 2,
         children: [
           'baidu-api',
+          'ali-api',
           'youdao-api',
           'baidu-ocr'
         ]
