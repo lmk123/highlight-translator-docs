@@ -1,5 +1,4 @@
 ---
-sidebar: false
 home: true
 heroText: 划词翻译
 tagline: 简单好用的划词 / 截图 / 网页翻译扩展

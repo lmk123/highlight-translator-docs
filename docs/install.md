@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # 手动安装划词翻译到 Chrome/Edge 浏览器
 
 由于部分用户可能打不开 [Chrome 扩展商店](https://chrome.google.com/webstore/detail/ikhdkkncnoglghljlkmcimlnlhkeamad)，或者有时候官方审核很慢，所以额外提供了下载离线安装包手动安装的方式。
