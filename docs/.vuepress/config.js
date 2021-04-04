@@ -25,6 +25,7 @@ module.exports = {
           'qq-api',
           'caiyun-api',
           'ali-api',
+          'sg-api',
           'youdao-api',
           'custom-api',
           'baidu-ocr'

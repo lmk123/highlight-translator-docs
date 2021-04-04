@@ -4,6 +4,12 @@ sidebar: auto
 
 # 更新日志
 
+## v7.5.14
+
+#### 新功能
+
+添加[彩云小译](./services/caiyun-api.md)和[搜狗翻译](./services/sg-api.md)。
+
 ## v7.5.13
 
 #### 新功能
