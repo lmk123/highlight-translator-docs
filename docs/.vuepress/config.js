@@ -26,6 +26,7 @@ module.exports = {
           'caiyun-api',
           'ali-api',
           'youdao-api',
+          'custom-api',
           'baidu-ocr'
         ]
       }]

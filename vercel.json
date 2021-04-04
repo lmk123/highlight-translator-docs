@@ -19,6 +19,10 @@
       "destination": "/services/youdao-api.html"
     },
     {
+      "source": "/custom-api.html",
+      "destination": "/services/custom-api.html"
+    },
+    {
       "source": "/use-official-api.html",
       "destination": "/notices/use-official-api.html"
     }

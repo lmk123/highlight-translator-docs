@@ -20,7 +20,7 @@ sidebar: auto
 
 #### 新功能
 
-添加[自定义翻译源](custom-api.md)功能。
+添加[自定义翻译源](./services/custom-api.md)功能。
 
 ## v7.5.10
 
