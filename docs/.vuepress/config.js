@@ -23,6 +23,7 @@ module.exports = {
         children: [
           'baidu-api',
           'qq-api',
+          'caiyun-api',
           'ali-api',
           'youdao-api',
           'baidu-ocr'
