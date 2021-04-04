@@ -14,13 +14,15 @@
 
 如果你会编程的话，你可以实现一个 HTTP 接口填写进划词翻译当中。
 
-举例来说，如果你的翻译接口地址为【http://localhost:8088】，支持【翻译一】和【翻译二】这两个翻译服务，那么你就可以做如下设置：
+### 接口说明
+
+举例来说，如果你的翻译接口地址为【http://localhost:8088/】，支持【翻译一】和【翻译二】这两个翻译服务，那么你就可以做如下设置：
 
 ![img_3.png](./img_3.png)
 
-设置好了之后，当你在网页中划选了中文文本“你好，划词翻译”之后，划词翻译会调用两次你的接口（因为你填写了两个翻译名称，每个翻译名称会调用一次接口）分别获取翻译结果。
+设置好了之后，当你在网页中划选了中文文本“你好，划词翻译”之后，划词翻译会调用两次你的接口（因为你填写了两个翻译名称，每个翻译名称会各调用一次接口）分别获取翻译结果。
 
-划词翻译会使用 POST 方法调用你的接口，并传递一个 JSON 给你：
+划词翻译会使用 POST 方法调用你的接口，并传递一个 JSON：
 
 ```js
 {
@@ -69,6 +71,8 @@
 - 彩云小译提供用于测试的 Token
 :::
 
+#### 编写代码
+
 ```js
 const http = require('http')
 
@@ -112,11 +116,9 @@ function getResultFromCY(params) {
         },
         (res) => {
           let responseText = ''
-
           res.on('data', (chunk) => {
             responseText += chunk
           })
-
           res.on('end', () => {
             // 彩云小译返回的 JSON 格式如下：
             // {
@@ -124,9 +126,11 @@ function getResultFromCY(params) {
             // }
             const responseJSON = JSON.parse(responseText)
 
-            // 如果源文本的语种跟首要目标语种一致，彩云小译会将源文本原样返回。此时就需要重新调用接口，将文本翻译为次要目标语种
+            // 如果源文本的语种跟首要目标语种一致，彩云小译会将源文本原样返回。
+            // 此时就需要重新调用接口，将文本翻译为次要目标语种
             if (
               params.text === responseJSON.target.join('\n') &&
+              // destination 数组也可能只有一个元素，所以这里需要做一个判断
               params.destination.length > 1
             ) {
               resolve(
@@ -142,7 +146,9 @@ function getResultFromCY(params) {
             resolve({
               text: params.text,
               link: 'https://fanyi.caiyunapp.com/',
-              from: '', // 彩云小译没有提供源语种，这里可以暂时返回空字符串。未来划词翻译会将 from 和 to 也变成可选的字段。
+              // 彩云小译没有提供源语种，from 可以暂时返回空字符串。
+              // 未来划词翻译会将 from 和 to 也变成可选的字段。
+              from: '',
               to: dest,
               result: responseJSON.target,
             })
@@ -193,6 +199,8 @@ http
   .listen(8088)
 ```
 
+#### 测试接口
+
 将上面的代码保存为 `index.js` 并在终端运行 `node index`，然后在划词翻译的自定义翻译源中做如下配置：
 
 ![img_7.png](./img_7.png)
@@ -200,6 +208,8 @@ http
 最后，点击【测试】按钮，如果调用成功，会弹出下面的消息：
 
 ![img_6.png](./img_6.png)
+
+#### 实际使用效果
 
 实际使用效果如下：
 
