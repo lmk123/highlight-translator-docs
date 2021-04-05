@@ -4,6 +4,17 @@ sidebar: auto
 
 # 更新日志
 
+## v7.5.15
+
+#### 功能改进
+
+  - [#958](https://github.com/lmk123/crx-selection-translate/issues/958) 必应词典没有翻译结果时在错误消息里显示解决方案。
+
+#### bug 修复
+
+- [#961](https://github.com/lmk123/crx-selection-translate/issues/961) 修复开启【自动朗读】的情况下连续两次翻译相同文本时，第二次翻译没有自动朗读的问题。
+- 修复必应词典将部分中文词组（例如”版本“）识别成了英语导致无法使用系统语音朗读的问题。
+
 ## v7.5.14
 
 #### 新功能
