@@ -24,7 +24,17 @@
 
 开通之后，回到[阿里云机器翻译管理控制台](https://mt.console.aliyun.com/basic)，把鼠标移动到页面右上角的头像上悬停，然后点击【AccessKey 管理】，会跳转到 [AccessKey 管理页面](https://ram.console.aliyun.com/manage/ak)。
 
-进入后会弹出一个安全提示，为了避免麻烦，选择【继续使用 AccessKey】即可。
+进入后会弹出一个安全提示：
+
+![img_11.png](./img_11.png)
+
+简而言之，在这里创建的 AccessKey 能调用你账号下的所有资源，权限范围太大了，一旦泄露的话影响面很大，所以阿里云建议你创建一个子用户，然后给这个子用户只分配机器翻译的权限，这样的话即使泄露了也只会影响到机器翻译。
+
+但是，**阿里云的子用户还不支持分配机器翻译的访问权限，所以只能在这里创建 AccessKey**。见[支持 RAM 的云服务列表](https://help.aliyun.com/document_detail/28630.html)。
+
+#### 使用云账号 AccessKey（更便捷，但不保险）
+
+如果要用云账号创建 AccessKey，那么选择【继续使用 AccessKey】即可。
 
 ![安全提示](../.vuepress/public/ali2.png)
 
@@ -35,6 +45,10 @@
 点击之后会让你输入手机短信验证码，输入之后会提示 AccessKey 创建成功，如下图：
 
 ![创建成功弹窗](../.vuepress/public/ali4.png)
+
+#### 使用子用户 AccessKey（更安全，但步骤繁琐）
+
+等阿里云支持使用子用户调用机器翻译时，我会更新这里的步骤。
 
 ### 第三步：在划词翻译中填写 AccessKey
 
