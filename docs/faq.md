@@ -14,7 +14,7 @@ sidebar: auto
 
 ## 为什么划词翻译里显示的翻译结果跟翻译网站里的不一样？
 
-使用谷歌翻译时，划词翻译会从两个接口获取结果，第一个接口的翻译结果跟 [https://translate.google.cn](https://translate.google.cn) 的结果是一致的，但是如果在一段时间内超出使用频率就不让用了，此时划词翻译会从第二个接口获取翻译结果。第二个接口没有使用频率限制，但是翻译结果可能会跟 [https://translate.google.cn](https://translate.google.cn) 不一样。
+使用谷歌翻译时，划词翻译会从两个接口获取结果，第一个接口的翻译结果跟 [https://translate.google.cn](https://translate.google.cn) 的结果是一致的，但是如果在一段时间内超出使用频率就不让用了，此时划词翻译会从第二个接口获取翻译结果。第二个接口没有使用频率限制，但是翻译结果可能会跟 [https://translate.google.cn](https://translate.google.cn) 不一样。在未来的版本中会换一种获取谷歌翻译结果的方式以确保翻译结果一致。
 
 如果是其它翻译源的结果跟翻译网站里的不一样，你可以[反馈给我](issues.md)。
 
