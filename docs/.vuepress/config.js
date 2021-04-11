@@ -16,8 +16,15 @@ module.exports = {
   themeConfig: {
     sidebar: {
       '/services/': [{
-        title: '服务申请',
-        path: '/services/',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          './',
+          'custom-api',
+          'tp'
+        ]
+      },{
+        title: '申请步骤',
         collapsable: false,
         sidebarDepth: 2,
         children: [
@@ -27,7 +34,6 @@ module.exports = {
           'ali-api',
           'sg-api',
           'youdao-api',
-          'custom-api',
           'baidu-ocr'
         ]
       }]
@@ -38,7 +44,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '常见问题', link: '/faq.html' },
-      { text: '服务申请', link: '/services/' },
+      { text: '服务介绍', link: '/services/' },
       { text: '更新日志', link: '/log.html' },
       { text: '反馈问题', link: '/issues.html' },
       { text: '隐私政策', link: '/privacy-policy.html' }
