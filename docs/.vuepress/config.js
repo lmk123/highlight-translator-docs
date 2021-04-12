@@ -44,7 +44,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '常见问题', link: '/faq.html' },
-      { text: '服务介绍', link: '/services/' },
+      { text: '服务申请', link: '/services/' },
       { text: '更新日志', link: '/log.html' },
       { text: '反馈问题', link: '/issues.html' },
       { text: '隐私政策', link: '/privacy-policy.html' }
