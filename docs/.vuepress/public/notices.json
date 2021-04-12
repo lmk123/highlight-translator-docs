@@ -1,14 +1,5 @@
 [
   {
-    "id": 0,
-    "title": "永久会员减免活动快结束了",
-    "text": "截至 2021 年 4 月 9 日，年费会员在购买永久会员（98 元）时可以减免 30 元，最终购买价格为 98 - 30 = 68 元。",
-    "filter": {
-      "noFree": true,
-      "noForever": true
-    }
-  },
-  {
     "id": 1,
     "text": "从 v7.6.0 开始，如果没有在设置中填写百度 / 有道翻译的密钥，那么百度翻译和有道翻译不会显示翻译结果。v7.6.0 预计在 2021 年 4 月 30 前发布。",
     "link": "https://hcfy.limingkai.cn/notices/use-official-api.html"
