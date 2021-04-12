@@ -4,7 +4,16 @@ sidebar: auto
 
 # 更新日志
 
-## v7.5.16（未发布）
+## v7.6.0
+
+#### 新功能
+
+- 添加使用[翻译积分](./services/tp.md)获取翻译结果的功能。
+- [#973](https://github.com/lmk123/crx-selection-translate/issues/973) 在划词设置中添加了“在文本框内不触发翻译”的选项。
+
+#### 功能改进
+
+按照[这个通知](./notices/use-official-api.md)的说明，百度翻译与有道翻译已改为从官方接口获取翻译结果，现在起百度和有道需要配置密钥之后才能使用。
 
 #### bug 修复
 

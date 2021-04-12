@@ -1,0 +1,48 @@
+<!-- 第一个元素必须是一个 div，空的也行，不然下面的 style 会被过滤掉 -->
+<div></div>
+<style>
+#points-price-table {
+  margin-bottom: 10px;
+}
+
+#points-price-table td, #points-price-table th {
+  text-align: center;
+}
+
+#points-price-details {
+  margin-bottom: 10px;
+}
+#points-price-summary {
+  cursor: pointer;
+}
+</style>
+<p>如果你不想去各个官方平台申请密钥， 也可以购买由划词翻译提供的翻译积分获取这些服务的翻译结果。1 元可以购买 1,000
+  积分，各个翻译服务的价格如下：</p>
+<table id='points-price-table'
+       class='bp3-html-table bp3-html-table-bordered bp3-small'>
+  <thead>
+  <tr>
+    <th>百度翻译</th>
+    <th>腾讯翻译君</th>
+    <th>彩云小译</th>
+    <th>阿里翻译</th>
+    <th>搜狗翻译</th>
+    <th>有道翻译</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>511 积分 / 一万字符</td>
+    <td>597 积分 / 一万字符</td>
+    <td>210 积分 / 一万字符</td>
+    <td>525 积分 / 一万字符</td>
+    <td>常见语种与中文互译为 425 积分 / 一万字符，其它情况为 636 积分 / 一万字符</td>
+    <td>509 积分 / 一万字符</td>
+  </tr>
+  </tbody>
+</table>
+
+<details id='points-price-details'>
+  <summary id='points-price-summary'>搜狗翻译的【常见语种】列表</summary>
+  中文、英语、日语、韩语、法语、德语、俄语、西班牙语、阿拉伯语、意大利语、葡萄牙语、捷克语、波兰语、匈牙利语、荷兰语、瑞典语、丹麦语、芬兰语、土耳其语、越南语、泰语。
+</details>

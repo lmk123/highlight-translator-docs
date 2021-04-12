@@ -16,8 +16,15 @@ module.exports = {
   themeConfig: {
     sidebar: {
       '/services/': [{
-        title: '服务申请',
-        path: '/services/',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+          './',
+          'custom-api',
+          'tp'
+        ]
+      },{
+        title: '申请步骤',
         collapsable: false,
         sidebarDepth: 2,
         children: [
@@ -27,7 +34,6 @@ module.exports = {
           'ali-api',
           'sg-api',
           'youdao-api',
-          'custom-api',
           'baidu-ocr'
         ]
       }]
