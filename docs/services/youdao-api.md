@@ -31,4 +31,4 @@
 
 ### 第三步：在划词翻译中填写有道翻译的应用 ID 和应用密钥
 
-打开「应用总览」页面 [https://ai.youdao.com/console/#/app-overview](https://ai.youdao.com/console/#/app-overview)，在应用列表中找到刚才创建的「应用名称」为「划词翻译」的应用，然后就会看到「应用 ID」和「密钥/包名/Bundle ID」，将它们填进划词翻译的「设置页」-「翻译源」-「有道翻译」中。
+打开「应用总览」页面 [https://ai.youdao.com/console/#/app-overview](https://ai.youdao.com/console/#/app-overview)，在应用列表中找到刚才创建的「应用名称」为「划词翻译」的应用，然后就会看到「应用 ID」和「密钥/包名/Bundle ID」，将它们填进划词翻译的【设置页】-【服务申请】-【有道翻译】中（v7.6.0 之前的用户填进「设置页」-「翻译源」-「有道翻译」中）。

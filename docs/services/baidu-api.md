@@ -58,4 +58,4 @@
 
 ### 第四步：在划词翻译中填写百度翻译 APP ID 和密钥
 
-打开百度翻译开放平台控制台 [https://fanyi-api.baidu.com/api/trans/product/desktop](https://fanyi-api.baidu.com/api/trans/product/desktop)，将页面最底部的「APP ID」和「密钥」填写进划词翻译的「设置页」-「翻译源」-「百度翻译」中。
+打开百度翻译开放平台控制台 [https://fanyi-api.baidu.com/api/trans/product/desktop](https://fanyi-api.baidu.com/api/trans/product/desktop)，将页面最底部的「APP ID」和「密钥」填写进划词翻译的【设置页】-【服务申请】-【百度翻译】中（v7.6.0 之前的用户填进「设置页」-「翻译源」-「百度翻译」中）。
