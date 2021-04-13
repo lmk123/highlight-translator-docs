@@ -9,6 +9,8 @@ sidebar: auto
 #### 功能改进
 
 - 更新内置 PDF 阅读器到 [v2.7.570 版本](https://github.com/mozilla/pdf.js/releases/tag/v2.7.570)。
+- [#966](https://github.com/lmk123/crx-selection-translate/issues/966) 测试黑白名单内规则时的网址可以不用输入协议了。
+- [#976](https://github.com/lmk123/crx-selection-translate/issues/976) 将“自动读取剪切板”加入快捷选项；当文本框内没有文本时，收藏按钮不可点击；去掉扩展弹窗和独立窗口的“按住不放可拖动”的提示
 
 ## v7.6.0
 
@@ -29,7 +31,7 @@ sidebar: auto
 
 #### 功能改进
 
-  - [#958](https://github.com/lmk123/crx-selection-translate/issues/958) 必应词典没有翻译结果时在错误消息里显示解决方案。
+- [#958](https://github.com/lmk123/crx-selection-translate/issues/958) 必应词典没有翻译结果时在错误消息里显示解决方案。
 
 #### bug 修复
 
