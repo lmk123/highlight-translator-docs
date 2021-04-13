@@ -4,6 +4,12 @@ sidebar: auto
 
 # 更新日志
 
+## v7.6.1（未发布）
+
+#### 功能改进
+
+- 更新内置 PDF 阅读器到 [v2.7.570 版本](https://github.com/mozilla/pdf.js/releases/tag/v2.7.570)。
+
 ## v7.6.0
 
 #### 新功能
