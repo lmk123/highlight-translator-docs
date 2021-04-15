@@ -8,9 +8,17 @@ sidebar: auto
 
 #### 功能改进
 
+- [#986](https://github.com/lmk123/crx-selection-translate/issues/986) 让 Chrome / Edge 86 及以下版本和 Firefox 也支持自动保存独立翻译窗口的位置。
 - 更新内置 PDF 阅读器到 [v2.7.570 版本](https://github.com/mozilla/pdf.js/releases/tag/v2.7.570)。
+- [#975](https://github.com/lmk123/crx-selection-translate/issues/975) 让内置 PDF 阅读器的深浅模式跟随划词翻译的设置。
 - [#966](https://github.com/lmk123/crx-selection-translate/issues/966) 测试黑白名单内规则时的网址可以不用输入协议了。
 - [#976](https://github.com/lmk123/crx-selection-translate/issues/976) 将“自动读取剪切板”加入快捷选项；当文本框内没有文本时，收藏按钮不可点击；去掉扩展弹窗和独立窗口的“按住不放可拖动”的提示
+- [#985](https://github.com/lmk123/crx-selection-translate/issues/985) 在【启用翻译源】下方添加给翻译源排序的提示。
+
+#### bug 修复
+
+- 修复翻译积分数量不更新的问题。
+- 修复错误消息中出现 `[object Object]` 的问题
 
 ## v7.6.0
 
