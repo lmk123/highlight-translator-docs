@@ -6,6 +6,10 @@ sidebar: auto
 
 ## v7.6.1（未发布）
 
+#### 新功能
+
+- 新增百度专业版和阿里专业版翻译。
+
 #### 功能改进
 
 - [#986](https://github.com/lmk123/crx-selection-translate/issues/986) 让 Chrome / Edge 86 及以下版本和 Firefox 也支持自动保存独立翻译窗口的位置。
@@ -14,6 +18,7 @@ sidebar: auto
 - [#966](https://github.com/lmk123/crx-selection-translate/issues/966) 测试黑白名单内规则时的网址可以不用输入协议了。
 - [#976](https://github.com/lmk123/crx-selection-translate/issues/976) 将“自动读取剪切板”加入快捷选项；当文本框内没有文本时，收藏按钮不可点击；去掉扩展弹窗和独立窗口的“按住不放可拖动”的提示
 - [#985](https://github.com/lmk123/crx-selection-translate/issues/985) 在【启用翻译源】下方添加给翻译源排序的提示。
+- 支付方式新增支付宝。
 
 #### bug 修复
 
