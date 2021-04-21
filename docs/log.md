@@ -9,8 +9,13 @@ sidebar: auto
 #### 功能改进
 
 - [#995](https://github.com/lmk123/crx-selection-translate/issues/995) 将切换字体大小的选项加入了快捷设置中。
+- [#994](https://github.com/lmk123/crx-selection-translate/issues/994) 让划词翻译可以在触摸屏设备（如 Windows Surface）上正常使用。
 - 当用户未勾选【允许访问文件网址】、或者更改了权限范围时，在设置页给出提示。
 - 调整了一些样式，例如给通知图标的数字加上了背景色，让它变得显眼一点。
+
+#### bug 修复
+
+- [#1000](https://github.com/lmk123/crx-selection-translate/issues/1000) 修复使用网页翻译时，偶尔会卡在“正在翻译，请稍候……”不动的问题
 
 ## v7.6.1
 
