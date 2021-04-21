@@ -95,7 +95,7 @@
     <tr>
       <td><a href='https://help.aliyun.com/document_detail/158291.html' target='_blank'>阿里翻译（专业版）</a></td>
       <td>支持电商 - 商品标题、电商 - 商品详情、电商 - 买卖家沟通、医疗、社交、金融六个专业领域。</td>
-      <td>请在<a href='https://help.aliyun.com/document_detail/158291.html' target='_blank'>官方介绍文档</a>里查看阿里翻译（专业版）支持的语言翻译方向。</td>
+      <td>全都支持中文到英文和英文到中文，部分领域还支持别的语种，请在<a href='https://help.aliyun.com/document_detail/158291.html' target='_blank'>官方介绍文档</a>里查看阿里翻译（专业版）支持的语言翻译方向。</td>
     </tr>
   </tbody>
 </table>
