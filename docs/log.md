@@ -4,12 +4,13 @@ sidebar: auto
 
 # 更新日志
 
-## v7.6.2（未发布）
+## v7.6.2
 
 #### 功能改进
 
 - [#995](https://github.com/lmk123/crx-selection-translate/issues/995) 将切换字体大小的选项加入了快捷设置中。
 - [#994](https://github.com/lmk123/crx-selection-translate/issues/994) 让划词翻译可以在触摸屏设备（如 Windows Surface）上正常使用。
+- [#1001](https://github.com/lmk123/crx-selection-translate/issues/1001) 给【禁用网页划词】选项添加了快捷键。
 - 当用户未勾选【允许访问文件网址】、或者更改了权限范围时，在设置页给出提示。
 - 调整了一些样式，例如给通知图标的数字加上了背景色，让它变得显眼一点。
 
