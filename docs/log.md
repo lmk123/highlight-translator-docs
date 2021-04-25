@@ -4,6 +4,13 @@ sidebar: auto
 
 # 更新日志
 
+## v7.6.3（未发布）
+
+#### bug 修复
+
+- [#1006](https://github.com/lmk123/crx-selection-translate/issues/1006)修复使用 DeepL 进行网页翻译时没有翻译全的问题。
+- 修复 Chrome 90 无痕模式下使用划词翻译时始终报“网络不稳定”的错误和账号会掉线（[#969](https://github.com/lmk123/crx-selection-translate/issues/969)）的问题。
+
 ## v7.6.2
 
 #### 功能改进
