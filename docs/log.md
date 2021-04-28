@@ -4,6 +4,12 @@ sidebar: auto
 
 # 更新日志
 
+## v7.6.5
+
+#### bug 修复
+
+- [#1017](https://github.com/lmk123/crx-selection-translate/issues/1017) 修复 Firefox 翻译短语时会报错的问题。这个问题是在 v7.6.4 中引入的。
+
 ## v7.6.4
 
 #### 功能改进
