@@ -8,8 +8,14 @@ sidebar: auto
 
 #### 功能改进
 
+- 新增折叠 / 展开功能，每个翻译源可以单独折叠或展开。
 - [#1018](https://github.com/lmk123/crx-selection-translate/issues/1018) 将谷歌翻译对于中文、日语、韩语等语种的完整音标显示出来。
 - 由于必应词典的机翻结果质量非常低，几乎不具备参考价值，所以现在起会隐藏必应词典的机翻结果。
+
+#### bug 修复
+
+- [#875](https://github.com/lmk123/crx-selection-translate/issues/875) 修复独立窗口在某些情况下打开时会触发两次重复的翻译请求的问题。
+- [#906](https://github.com/lmk123/crx-selection-translate/issues/906) 修复新勾选的翻译源在某些情况下始终处于 loading 状态、不显示翻译结果的问题。
 
 ## v7.6.5
 
