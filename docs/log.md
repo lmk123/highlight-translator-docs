@@ -8,8 +8,9 @@ sidebar: auto
 
 #### 功能改进
 
-- [#1020](https://github.com/lmk123/crx-selection-translate/issues/1020) 取消了文本框的“停止输入 0.5 秒后触发翻译”的功能，改为添加了一个按钮，点击之后才触发翻译，这样可以避免在输入文本过程中造成的字符浪费。
 - 新增折叠 / 展开功能，每个翻译源可以单独折叠或展开。
+- [#1020](https://github.com/lmk123/crx-selection-translate/issues/1020) 取消了文本框的“停止输入 0.5 秒后触发翻译”的功能，改为添加了一个按钮，点击之后才触发翻译，这样可以避免在输入文本过程中造成的字符浪费。
+- [#963](https://github.com/lmk123/crx-selection-translate/issues/963) 给截图翻译和网页翻译添加右键菜单。
 - [#1018](https://github.com/lmk123/crx-selection-translate/issues/1018) 将谷歌翻译对于中文、日语、韩语等语种的完整音标显示出来。
 - 由于必应词典的机翻结果质量非常低，几乎不具备参考价值，所以现在起会隐藏必应词典的机翻结果。
 
