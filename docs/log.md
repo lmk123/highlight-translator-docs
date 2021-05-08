@@ -19,7 +19,7 @@ sidebar: auto
 
 - 新增折叠 / 展开功能，每个翻译源可以单独折叠或展开。
 - [#1020](https://github.com/lmk123/crx-selection-translate/issues/1020) 取消了文本框的“停止输入 0.5 秒后触发翻译”的功能，改为添加了一个按钮，点击之后才触发翻译，这样可以避免在输入文本过程中造成的字符浪费。
-- [#963](https://github.com/lmk123/crx-selection-translate/issues/963) 给截图翻译和网页翻译添加右键菜单。
+- [#963](https://github.com/lmk123/crx-selection-translate/issues/963) 给截图翻译和全文翻译添加右键菜单。
 - [#1018](https://github.com/lmk123/crx-selection-translate/issues/1018) 将谷歌翻译对于中文、日语、韩语等语种的完整音标显示出来。
 - 由于必应词典的机翻结果质量非常低，几乎没有参考价值，所以现在起会隐藏必应词典的机翻结果。
 
@@ -47,13 +47,13 @@ sidebar: auto
 
 - [#955](https://github.com/lmk123/crx-selection-translate/issues/955) 修复了 DeepL 没有固定翻译为中文的问题。
 - 修复了有道翻译多段文本时翻译结果没有换行的问题。
-- 修复了使用 DeepL 网页翻译部分网站（例如本站）时会卡在“正在翻译，请稍候……”的问题。
+- 修复了使用 DeepL 全文翻译部分网站（例如本站）时会卡在“正在翻译，请稍候……”的问题。
 
 ## v7.6.3
 
 #### bug 修复
 
-- [#1006](https://github.com/lmk123/crx-selection-translate/issues/1006)修复使用 DeepL 进行网页翻译时没有翻译全的问题。
+- [#1006](https://github.com/lmk123/crx-selection-translate/issues/1006)修复使用 DeepL 进行全文翻译时没有翻译全的问题。
 - 修复 Chrome 90 无痕模式下使用划词翻译时始终报“网络不稳定”的错误和账号会掉线（[#969](https://github.com/lmk123/crx-selection-translate/issues/969)）的问题。
 
 ## v7.6.2
@@ -68,7 +68,7 @@ sidebar: auto
 
 #### bug 修复
 
-- [#1000](https://github.com/lmk123/crx-selection-translate/issues/1000) 修复使用网页翻译时，偶尔会卡在“正在翻译，请稍候……”不动的问题
+- [#1000](https://github.com/lmk123/crx-selection-translate/issues/1000) 修复使用全文翻译时，偶尔会卡在“正在翻译，请稍候……”不动的问题
 
 ## v7.6.1
 
@@ -150,7 +150,7 @@ sidebar: auto
 
 #### bug 修复
 
-- 修复网页翻译切换翻译源后，网页翻译操作栏消失了的问题。这个 bug 是在 v7.5.8 引入的。
+- 修复全文翻译切换翻译源后，全文翻译操作栏消失了的问题。这个 bug 是在 v7.5.8 引入的。
 
 ## v7.5.9
 
@@ -170,7 +170,7 @@ sidebar: auto
 
 #### 功能改进
 
-- [#944](https://github.com/lmk123/crx-selection-translate/issues/944) 从现在起，开启网页翻译后，按下网页翻译快捷键会关闭网页翻译。
+- [#944](https://github.com/lmk123/crx-selection-translate/issues/944) 从现在起，开启全文翻译后，按下全文翻译快捷键会关闭全文翻译。
 
 ## v7.5.7
 
@@ -223,7 +223,7 @@ sidebar: auto
 
 #### 新功能
 
-- 新增网页翻译功能，可以使用任意翻译源翻译整个网页，并支持双语查看。
+- 新增全文翻译功能，可以使用任意翻译源翻译整个网页，并支持双语查看。
 
 ## v7.5.3
 
