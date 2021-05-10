@@ -41,7 +41,25 @@ module.exports = {
       trackingID: 'UA-163159722-1',
     },
   },
-  plugins: ['@docusaurus/plugin-google-analytics'],
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        language: ['en', 'zh'],
+        translations: {
+          search_placeholder: '搜索',
+          see_all_results: '查看全部结果',
+          no_results: '无结果',
+          search_results_for: '搜索"{{ keyword }}"',
+          search_the_documentation: '搜索文档',
+          count_documents_found: '找到了 {{ count }} 篇文档',
+          count_documents_found_plural: '找到了 {{ count }} 篇文档',
+          no_documents_were_found: '没有找到相关文档',
+        },
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',

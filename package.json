@@ -14,6 +14,7 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.75",
     "@docusaurus/preset-classic": "2.0.0-alpha.75",
+    "@easyops-cn/docusaurus-search-local": "^0.16.2",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
     "clsx": "^1.1.1",
@@ -40,6 +41,7 @@
     "@types/react": "^17.0.5",
     "@types/react-helmet": "^6.1.1",
     "@types/react-router-dom": "^5.1.7",
+    "nodejieba": "^2.5.2",
     "prettier": "^2.3.0",
     "typescript": "^4.2.4"
   }
