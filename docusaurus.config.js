@@ -67,12 +67,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/lmk123/highlight-translator-docs/edit/master/',
+            'https://github.com/lmk123/highlight-translator-docs/edit/next/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/lmk123/highlight-translator-docs/edit/master/',
+            'https://github.com/lmk123/highlight-translator-docs/edit/next/',
         },
         theme: {},
       },
