@@ -1,0 +1,96 @@
+{
+  "redirects": [
+    {
+      "source": "/baidu-api.html",
+      "destination": "/docs/services/baidu-api"
+    },
+    {
+      "source": "/baidu-ocr.html",
+      "destination": "/docs/services/baidu-ocr"
+    },
+    {
+      "source": "/youdao-api.html",
+      "destination": "/docs/services/youdao-api"
+    },
+    {
+      "source": "/custom-api.html",
+      "destination": "/docs/services/custom-api"
+    },
+    {
+      "source": "/use-official-api.html",
+      "destination": "/blog/2021/01/14/use-official-api"
+    },
+    {
+      "source": "/notices/use-official-api.html",
+      "destination": "/blog/2021/01/14/use-official-api"
+    },
+    {
+      "source": "/histroy.html",
+      "destination": "/docs/histroy"
+    },
+    {
+      "source": "/install.html",
+      "destination": "/docs/install"
+    },
+    {
+      "source": "/faq.html",
+      "destination": "/docs/faq"
+    },
+    {
+      "source": "/services/",
+      "destination": "/docs/services/intro"
+    },
+    {
+      "source": "/services/custom-api.html",
+      "destination": "/docs/services/custom-api"
+    },
+    {
+      "source": "/services/tp.html",
+      "destination": "/docs/services/tp"
+    },
+    {
+      "source": "/services/baidu-api.html",
+      "destination": "/docs/services/baidu-api"
+    },
+    {
+      "source": "/services/qq-api.html",
+      "destination": "/docs/services/qq-api"
+    },
+    {
+      "source": "/services/caiyun-api.html",
+      "destination": "/docs/services/caiyun-api"
+    },
+    {
+      "source": "/services/ali-api.html",
+      "destination": "/docs/services/ali-api"
+    },
+    {
+      "source": "/services/sg-api.html",
+      "destination": "/docs/services/sg-api"
+    },
+    {
+      "source": "/services/youdao-api.html",
+      "destination": "/docs/services/youdao-api"
+    },
+    {
+      "source": "/services/baidu-ocr.html",
+      "destination": "/docs/services/baidu-ocr"
+    },
+    {
+      "source": "/log.html",
+      "destination": "/docs/log"
+    },
+    {
+      "source": "/issues.html",
+      "destination": "/docs/issues"
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/docs/privacy-policy"
+    },
+    {
+      "source": "/vip.html",
+      "destination": "/docs/vip"
+    }
+  ]
+}

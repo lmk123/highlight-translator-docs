@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "划词翻译",
+    "description": "The title in the navbar"
+  },
+  "item.label.常见问题": {
+    "message": "常见问题",
+    "description": "Navbar item with label 常见问题"
+  },
+  "item.label.更新日志": {
+    "message": "更新日志",
+    "description": "Navbar item with label 更新日志"
+  },
+  "item.label.反馈问题": {
+    "message": "反馈问题",
+    "description": "Navbar item with label 反馈问题"
+  },
+  "item.label.产品博客": {
+    "message": "产品博客",
+    "description": "Navbar item with label 产品博客"
+  },
+  "item.label.查看源码": {
+    "message": "查看源码",
+    "description": "Navbar item with label 查看源码"
+  }
+}

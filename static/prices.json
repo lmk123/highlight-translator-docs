@@ -1,0 +1,14 @@
+[
+  {
+    "value": "month",
+    "label": "一个月（3 元）"
+  },
+  {
+    "value": "year",
+    "label": "一年（30 元）"
+  },
+  {
+    "value": "forever",
+    "label": "永久（98 元）"
+  }
+]
