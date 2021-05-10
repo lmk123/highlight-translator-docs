@@ -22,5 +22,13 @@
   "item.label.查看源码": {
     "message": "查看源码",
     "description": "Navbar item with label 查看源码"
+  },
+  "item.label.安装": {
+    "message": "安装",
+    "description": "Navbar item with label 安装"
+  },
+  "item.label.服务申请": {
+    "message": "服务申请",
+    "description": "Navbar item with label 服务申请"
   }
 }

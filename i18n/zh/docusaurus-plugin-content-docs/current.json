@@ -3,8 +3,8 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.services": {
-    "message": "services",
-    "description": "The label for category services in sidebar tutorialSidebar"
+  "sidebar.servicesSidebar.category.申请步骤": {
+    "message": "申请步骤",
+    "description": "The label for category 申请步骤 in sidebar servicesSidebar"
   }
 }
