@@ -13,8 +13,8 @@ module.exports = {
   organizationName: 'lmk123',
   projectName: 'crx-selection-translate',
   i18n: {
-    defaultLocale: 'zh',
-    locales: ['zh'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
   themeConfig: {
     navbar: {
