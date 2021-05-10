@@ -38,7 +38,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 - 你想要使用最新版本，但最新版本仍在 Chrome / Edge 扩展商店的审核流程当中，没有上架。
 - 最新版本有比较严重的 bug，你希望临时使用旧版本的划词翻译。
 
-:::note
+:::note 注意
 离线安装包仅支持 Chrome 和 Edge 浏览器，不支持 Firefox。
 :::
 
