@@ -1,101 +1,112 @@
 <!DOCTYPE html>
-<html lang='zh'>
-<head>
-  <meta charset='UTF-8'>
-  <title>忘记密码</title>
-</head>
-<body>
-<form id='form1'>
-  邮箱：<input type='email' id='email' required
-            pattern='\b[\w.-]+@[\w.-]+\.\w{2,4}\b'>
-  <div>
-    <button type='submit'>发送验证码</button>
-  </div>
-</form>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>忘记密码</title>
+  </head>
+  <body>
+    <form id="form1">
+      邮箱：<input
+        type="email"
+        id="email"
+        required
+        pattern="\b[\w.-]+@[\w.-]+\.\w{2,4}\b"
+      />
+      <div>
+        <button type="submit">发送验证码</button>
+      </div>
+    </form>
 
-<form id='form2'>
-  <div>
-    验证码：<input type='text' id='vk' required>
-  </div>
-  <div>
-    新密码：<input type='password' id='pwd' required minlength='6' maxlength='20'>
-  </div>
-  <div>
-    重复新密码：<input type='password' id='pwd2' required minlength='6'
-                 maxlength='20'>
-  </div>
-  <button type='submit'>修改密码</button>
-</form>
-<script>
-;(() => {
-  const root = 'https://hs-api.limingkai.cn'
+    <form id="form2">
+      <div>验证码：<input type="text" id="vk" required /></div>
+      <div>
+        新密码：<input
+          type="password"
+          id="pwd"
+          required
+          minlength="6"
+          maxlength="20"
+        />
+      </div>
+      <div>
+        重复新密码：<input
+          type="password"
+          id="pwd2"
+          required
+          minlength="6"
+          maxlength="20"
+        />
+      </div>
+      <button type="submit">修改密码</button>
+    </form>
+    <script>
+      ;(() => {
+        const root = 'https://hs-api.limingkai.cn'
 
-  const form1 = document.getElementById('form1')
-  const form2 = document.getElementById('form2')
-  const email = document.getElementById('email')
-  const vk = document.getElementById('vk')
-  const pwd = document.getElementById('pwd')
-  const pwd2 = document.getElementById('pwd2')
+        const form1 = document.getElementById('form1')
+        const form2 = document.getElementById('form2')
+        const email = document.getElementById('email')
+        const vk = document.getElementById('vk')
+        const pwd = document.getElementById('pwd')
+        const pwd2 = document.getElementById('pwd2')
 
-  async function isOKResponse(response, okMsg) {
-    const text = await response.text()
-    if (text === 'OK') {
-      window.alert(okMsg)
-      return
-    }
+        async function isOKResponse(response, okMsg) {
+          const text = await response.text()
+          if (text === 'OK') {
+            window.alert(okMsg)
+            return
+          }
 
-    if (!response.ok) {
-      window.alert('服务器发生了一个错误，错误消息：', text)
-      return
-    }
+          if (!response.ok) {
+            window.alert('服务器发生了一个错误，错误消息：' + text)
+            return
+          }
 
-    try {
-      const json = JSON.parse(text)
-      if (json.isError) {
-        window.alert(json.message)
-      }
-    } catch (e) {
+          try {
+            const json = JSON.parse(text)
+            if (json.isError) {
+              window.alert(json.message)
+            }
+          } catch (e) {}
+        }
 
-    }
-  }
+        form1.addEventListener('submit', async (e) => {
+          e.preventDefault()
+          const response = await fetch(root + '/forget/email', {
+            method: 'POST',
+            mode: 'cors',
+            credentials: 'include',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              email: email.value,
+            }),
+          })
 
-  form1.addEventListener('submit', async e => {
-    e.preventDefault()
-    const response = await fetch(root + '/forget/email', {
-      method: 'POST',
-      mode: 'cors',
-      credentials: 'include',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        email: email.value
-      })
-    })
+          isOKResponse(response, '发送成功')
+        })
 
-    isOKResponse(response, '发送成功')
-  })
+        form2.addEventListener('submit', async (e) => {
+          e.preventDefault()
 
-  form2.addEventListener('submit', async e => {
-    e.preventDefault()
+          if (pwd.value !== pwd2.value) {
+            window.alert('两个密码不一样')
+            return
+          }
 
-    if (pwd.value !== pwd2.value) {
-      window.alert('两个密码不一样')
-      return
-    }
-
-    const response = await fetch(root + '/forget/change', {
-      method: 'PUT',
-      mode: 'cors',
-      credentials: 'include',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ vk: vk.value, pwd: pwd.value })
-    })
-    isOKResponse(response, '修改成功')
-  })
-})()
-</script>
-</body>
+          const response = await fetch(root + '/forget/change', {
+            method: 'PUT',
+            mode: 'cors',
+            credentials: 'include',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ vk: vk.value, pwd: pwd.value }),
+          })
+          isOKResponse(response, '修改成功')
+        })
+      })()
+    </script>
+  </body>
 </html>

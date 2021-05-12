@@ -4,6 +4,26 @@ import { useAsyncFn } from 'react-use'
 import { API_ROOT, DOC_ROOT } from '../env'
 import styles from './InviteGift.module.css'
 
+async function isOKResponse(response, okMsg) {
+  const text = await response.text()
+  if (text === 'OK') {
+    window.alert(okMsg)
+    return
+  }
+
+  if (!response.ok) {
+    window.alert('服务器发生了一个错误，错误消息：' + text)
+    return
+  }
+
+  try {
+    const json = JSON.parse(text)
+    if (json.isError) {
+      window.alert(json.message)
+    }
+  } catch (e) {}
+}
+
 export function InviteGift() {
   const userState = useGetUserInfo()
   const [buyState, doBuy] = useAsyncFn(async (type: string) => {
@@ -11,7 +31,7 @@ export function InviteGift() {
       method: 'post',
       credentials: 'include',
     })
-    return response.text()
+    isOKResponse(response, '兑换成功')
   }, [])
 
   return (
