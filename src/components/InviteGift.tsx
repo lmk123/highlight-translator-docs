@@ -3,7 +3,6 @@ import { useGetUserInfo } from '../hooks/useGetUserInfo'
 import { useAsyncFn } from 'react-use'
 import { API_ROOT, DOC_ROOT } from '../env'
 import styles from './InviteGift.module.css'
-console.log(styles)
 
 export function InviteGift() {
   const userState = useGetUserInfo()
