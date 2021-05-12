@@ -1,0 +1,8 @@
+.store {
+  display: flex;
+}
+
+.store-item {
+  text-align: center;
+  width: 150px;
+}
