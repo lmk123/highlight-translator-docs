@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   customFields: {
-    latestVersion: '7.6.8',
+    latestVersion: '7.6.9',
   },
   title: '划词翻译',
   tagline: '简单好用的划词 / 截图 / 全文翻译扩展',

@@ -1,5 +1,16 @@
 # 更新日志
 
+## v7.6.9 {#v7-6-9}
+
+#### 功能改进 {#v7-6-9-improve}
+
+- [#1029](https://github.com/lmk123/crx-selection-translate/issues/1029) 将文本框的自动翻译功能重新添加回来。
+
+#### bug 修复 {#v7-6-9-bug}
+
+- [#1031](https://github.com/lmk123/crx-selection-translate/issues/1031) 修复 5 月 12 日起 DeepL 不显示翻译结果的问题。
+- [#1032](https://github.com/lmk123/crx-selection-translate/issues/1032) 将文件名变短，以防止可能出现的由文件名过长导致无法安装划词翻译的问题。
+
 ## v7.6.8 {#v7-6-8}
 
 #### 功能改进 {#v7-6-8-improve}
