@@ -1,0 +1,91 @@
+[[redirects]]
+  from = "/baidu-api.html"
+  to = "/docs/services/baidu-api"
+
+[[redirects]]
+  from = "/baidu-ocr.html"
+  to = "/docs/services/baidu-ocr"
+
+[[redirects]]
+  from = "/youdao-api.html"
+  to = "/docs/services/youdao-api"
+
+[[redirects]]
+  from = "/custom-api.html"
+  to = "/docs/services/custom-api"
+
+[[redirects]]
+  from = "/use-official-api.html"
+  to = "/blog/2021/01/14/use-official-api"
+
+[[redirects]]
+  from = "/notices/use-official-api.html"
+  to = "/blog/2021/01/14/use-official-api"
+
+[[redirects]]
+  from = "/histroy.html"
+  to = "/docs/histroy"
+
+[[redirects]]
+  from = "/install.html"
+  to = "/docs/install"
+
+[[redirects]]
+  from = "/faq.html"
+  to = "/docs/faq"
+
+[[redirects]]
+  from = "/services/"
+  to = "/docs/services/intro"
+
+[[redirects]]
+  from = "/services/custom-api.html"
+  to = "/docs/services/custom-api"
+
+[[redirects]]
+  from = "/services/tp.html"
+  to = "/docs/services/tp"
+
+[[redirects]]
+  from = "/services/baidu-api.html"
+  to = "/docs/services/baidu-api"
+
+[[redirects]]
+  from = "/services/qq-api.html"
+  to = "/docs/services/qq-api"
+
+[[redirects]]
+  from = "/services/caiyun-api.html"
+  to = "/docs/services/caiyun-api"
+
+[[redirects]]
+  from = "/services/ali-api.html"
+  to = "/docs/services/ali-api"
+
+[[redirects]]
+  from = "/services/sg-api.html"
+  to = "/docs/services/sg-api"
+
+[[redirects]]
+  from = "/services/youdao-api.html"
+  to = "/docs/services/youdao-api"
+
+[[redirects]]
+  from = "/services/baidu-ocr.html"
+  to = "/docs/services/baidu-ocr"
+
+[[redirects]]
+  from = "/log.html"
+  to = "/docs/log"
+
+[[redirects]]
+  from = "/issues.html"
+  to = "/docs/issues"
+
+[[redirects]]
+  from = "/privacy-policy.html"
+  to = "/docs/privacy-policy"
+
+[[redirects]]
+  from = "/vip.html"
+  to = "/docs/vip"

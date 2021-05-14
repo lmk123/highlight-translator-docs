@@ -9,7 +9,7 @@ import { InviteGift } from '../src/components/InviteGift'
 | 年费会员 | 2 邀请点数 |
 | 永久会员 | 7 邀请点数 |
 
-最多可以获得 200 个邀请点数。
+目前暂时限制了最多获得 200 个邀请点数。如果你达到了上限，你可以[联系我](issues.mdx)提高上限。
 
 <InviteGift />
 
