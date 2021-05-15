@@ -40,8 +40,12 @@ module.exports = {
     googleAnalytics: {
       trackingID: 'UA-163159722-1',
     },
+    googleAdsense: {
+      dataAdClient: 'ca-pub-7015533392136941',
+    },
   },
   plugins: [
+    'docusaurus-plugin-google-adsense',
     [
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
