@@ -1,125 +1,182 @@
 <!-- 第一个元素必须是一个 div，空的也行，不然下面的 style 会被过滤掉 -->
 <div></div>
 <style>
-#price-table {
-  width: 100%;
-  margin-bottom: 10px;
-}
+  #price-table {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-#price-table td, #price-table th {
-  text-align: center;
-}
+  #price-table td,
+  #price-table th {
+    text-align: center;
+  }
 
-#price-table .help {
-  display: inline-block;
-  font-size: 12px;
-  width: 14px;
-  height: 14px;
-  background-color: #5C7080;
-  border-radius: 7px;
-  line-height: 14px;
-  text-align: center;
-  margin-left: 3px;
-  cursor: help;
-  color: #fff;
-}
+  #price-table .help {
+    display: inline-block;
+    font-size: 12px;
+    width: 14px;
+    height: 14px;
+    background-color: #5c7080;
+    border-radius: 7px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 3px;
+    cursor: help;
+    color: #fff;
+  }
 
-#price-summary {
-  cursor: pointer;
-}
+  #price-summary {
+    cursor: pointer;
+  }
 </style>
 
-<p>会员分为三种：月费会员（3 元 / 月）、年费会员（30 元 / 年）和永久会员（98 元 / 永久）。</p>
-<p>永久会员可以通过<a href='https://hcfy.limingkai.cn/docs/invite' target='_blank'>邀请新用户</a>的方式免费兑换。</p>
-<div class="bp3-callout bp3-intent-primary" style='margin-bottom: 10px;'>
+<p>
+  会员分为三种：月费会员（3 元 / 月）、年费会员（30 元 / 年）和永久会员（98 元 /
+  永久）。
+</p>
+<p>
+  永久会员可以通过<a
+    href="https://hcfy.limingkai.cn/docs/invite"
+    target="_blank"
+    >邀请新用户</a
+  >的方式免费兑换。
+</p>
+<div class="bp3-callout bp3-intent-primary" style="margin-bottom: 10px">
   <h5 class="bp3-heading">会员功能与翻译服务是不相关的</h5>
-  <p>无论是不是会员，百度翻译、腾讯翻译君等翻译服务都需要配置密钥或购买翻译积分后才能使用。</p>
+  <p>
+    无论是不是会员，百度翻译、腾讯翻译君等翻译服务都需要配置密钥或购买翻译积分后才能使用。
+  </p>
   <div>无论是不是会员，都可以购买翻译积分。</div>
 </div>
 <table
-  id='price-table'
-  class='bp3-html-table bp3-html-table-bordered bp3-html-table-condensed bp3-html-table-striped bp3-small'>
+  id="price-table"
+  class="
+    bp3-html-table
+    bp3-html-table-bordered
+    bp3-html-table-condensed
+    bp3-html-table-striped
+    bp3-small
+  "
+>
   <colgroup>
-    <col style='width: 120px'>
+    <col style="width: 120px" />
   </colgroup>
   <thead>
-  <tr>
-    <th>功能</th>
-    <th>非会员用户</th>
-    <th>月费 / 年费会员</th>
-    <th>永久会员</th>
-  </tr>
+    <tr>
+      <th>功能</th>
+      <th>非会员用户</th>
+      <th>月费 / 年费会员</th>
+      <th>永久会员</th>
+    </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>基础功能<span class='help'
-                  title='深色模式、快捷键、辅助键、独立翻译窗口、PDF 阅读器等。'>?</span>
-    </td>
-    <td colspan='3'>可用</td>
-  </tr>
-  <tr>
-    <td>网页划词</td>
-    <td colspan='3'>可用</td>
-  </tr>
-  <tr>
-    <td>数据同步<span class='help'
-                  title='自动将你的设置、收藏夹和历史记录上传到划词翻译服务器并在不同浏览器之间同步，即使卸载了划词翻译也不会丢失数据。'>?</span>
-    </td>
-    <td>不可用</td>
-    <td colspan='2'>可用</td>
-  </tr>
-  <tr>
-    <td>截图翻译</td>
-    <td> 10 次 / 天</td>
-    <td colspan='2'>无限制</td>
-  </tr>
-  <tr>
-    <td>全文（网页）翻译</td>
-    <td>5 次 / 天</td>
-    <td colspan='2'>无限制</td>
-  </tr>
-  <tr>
-    <td>快捷链接<span class='help'
-                  title='可配置的链接，可以便捷的跳转到诸如谷歌搜索、维基百科等用划选的文本进行搜索的网站。'>?</span>
-    </td>
-    <td>最多 5 个</td>
-    <td colspan='2'>无限制</td>
-  </tr>
-  <tr>
-    <td>系统语音<span class='help'
-                  title='使用浏览器和操作系统提供的语音朗读文本。'>?</span></td>
-    <td>可用，但有限制<span class='help'
-                     title='不能设置口音（例如使用粤语朗读中文）；不能指定系统语音朗读特定的语言（例如使用 Edge 浏览器提供的 Yaoyao 朗读简体中文）。'>?</span>
-    </td>
-    <td colspan='2'>无限制</td>
-  </tr>
-  <tr>
-    <td>源文本处理<span class='help'
-                   title='在翻译之前对文本进行处理以提高翻译准确度，目前支持去掉换行符（\n）、去掉双斜线（//）和转换驼峰式与下划线式词组（将 someData 转为 some data、将 click_by_user 转为 click by user）。'>?</span>
-    </td>
-    <td>不可用</td>
-    <td colspan='2'>可用</td>
-  </tr>
-  <tr>
-    <td>自动复制<span class='help'
-                  title='在翻译后自动将翻译结果复制进剪切板。'>?</span></td>
-    <td>不可用</td>
-    <td colspan='2'>可用</td>
-  </tr>
-  <tr>
-    <td><a href='https://hcfy.limingkai.cn/custom-api.html' target='_blank'>自定义翻译源</a>
-    </td>
-    <td colspan='2'>不可用</td>
-    <td>可用</td>
-  </tr>
+    <tr>
+      <td>
+        基础功能<span
+          class="help"
+          title="深色模式、快捷键、辅助键、独立翻译窗口、PDF 阅读器等。"
+          >?</span
+        >
+      </td>
+      <td colspan="3">可用</td>
+    </tr>
+    <tr>
+      <td>网页划词</td>
+      <td colspan="3">可用</td>
+    </tr>
+    <tr>
+      <td>
+        数据同步<span
+          class="help"
+          title="自动将你的设置、收藏夹和历史记录上传到划词翻译服务器并在不同浏览器之间同步，即使卸载了划词翻译也不会丢失数据。"
+          >?</span
+        >
+      </td>
+      <td>不可用</td>
+      <td colspan="2">可用</td>
+    </tr>
+    <tr>
+      <td>截图翻译</td>
+      <td>5 次 / 天</td>
+      <td colspan="2">无限制</td>
+    </tr>
+    <tr>
+      <td>全文（网页）翻译</td>
+      <td>3 次 / 天</td>
+      <td colspan="2">无限制</td>
+    </tr>
+    <tr>
+      <td>语音翻译</td>
+      <td>3 次 / 天</td>
+      <td colspan="2">无限制</td>
+    </tr>
+    <tr>
+      <td>
+        快捷链接<span
+          class="help"
+          title="可配置的链接，可以便捷的跳转到诸如谷歌搜索、维基百科等用划选的文本进行搜索的网站。"
+          >?</span
+        >
+      </td>
+      <td>最多 5 个</td>
+      <td colspan="2">无限制</td>
+    </tr>
+    <tr>
+      <td>
+        系统语音<span
+          class="help"
+          title="使用浏览器和操作系统提供的语音朗读文本。"
+          >?</span
+        >
+      </td>
+      <td>
+        可用，但有限制<span
+          class="help"
+          title="不能设置口音（例如使用粤语朗读中文）；不能指定系统语音朗读特定的语言（例如使用 Edge 浏览器提供的 Yaoyao 朗读简体中文）。"
+          >?</span
+        >
+      </td>
+      <td colspan="2">无限制</td>
+    </tr>
+    <tr>
+      <td>
+        源文本处理<span
+          class="help"
+          title="在翻译之前对文本进行处理以提高翻译准确度，目前支持去掉换行符（\n）、去掉双斜线（//）和转换驼峰式与下划线式词组（将 someData 转为 some data、将 click_by_user 转为 click by user）。"
+          >?</span
+        >
+      </td>
+      <td>不可用</td>
+      <td colspan="2">可用</td>
+    </tr>
+    <tr>
+      <td>
+        自动复制<span class="help" title="在翻译后自动将翻译结果复制进剪切板。"
+          >?</span
+        >
+      </td>
+      <td>不可用</td>
+      <td colspan="2">可用</td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://hcfy.limingkai.cn/custom-api.html" target="_blank"
+          >自定义翻译源</a
+        >
+      </td>
+      <td colspan="2">不可用</td>
+      <td>可用</td>
+    </tr>
   </tbody>
 </table>
 <details>
-  <summary id='price-summary'>注意事项</summary>
-  <ul class='bp3-list'>
+  <summary id="price-summary">注意事项</summary>
+  <ul class="bp3-list">
     <li>会员账号最多同时登录 4 个浏览器。</li>
-    <li>由于历史记录数据量较大，划词翻译服务器会将历史记录保存 60 天后删除。已经保存在浏览器中的历史记录不受影响。</li>
+    <li>
+      由于历史记录数据量较大，划词翻译服务器会将历史记录保存 60
+      天后删除。已经保存在浏览器中的历史记录不受影响。
+    </li>
     <li>收藏夹上限为 1,000 个。</li>
   </ul>
 </details>
-
