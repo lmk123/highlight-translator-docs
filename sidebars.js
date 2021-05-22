@@ -23,8 +23,14 @@ module.exports = {
       type: 'category',
       label: '申请步骤',
       collapsed: false,
-      items: ['services/baidu-api', 'services/qq-api', 'services/caiyun-api', 'services/ali-api', 'services/sg-api', 'services/youdao-api', 'services/baidu-ocr']
-    }
-  ]
-
+      items: [
+        'services/baidu-api',
+        'services/qq-api',
+        'services/caiyun-api',
+        'services/ali-api',
+        'services/sg-api',
+        'services/youdao-api',
+      ],
+    },
+  ],
 }
