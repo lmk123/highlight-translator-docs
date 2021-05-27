@@ -1,5 +1,19 @@
 # 更新日志
 
+## v8.1.1 {#v8-1-1}
+
+#### 功能改进 {#v8-1-1-improve}
+
+- [#1039](https://github.com/lmk123/crx-selection-translate/issues/1039) 独立翻译窗口现在可以用 ESC 键关闭了。
+- [#1053](https://github.com/lmk123/crx-selection-translate/issues/1053) 给会员登录窗口添加了“忘记密码”的链接。
+
+#### bug 修复 {#v8-1-1-bug}
+
+- 全文翻译：
+  - [#1016](https://github.com/lmk123/crx-selection-translate/issues/1016) 修复了会显示网页里不可见文本的翻译结果的问题。
+  - 修复了读取网页中的文本时有多余的换行符导致翻译结果不准确的问题。
+- [#1060](https://github.com/lmk123/crx-selection-translate/issues/1060) 修复划词翻译会给网页注入一个空 div 的问题。
+
 ## v8.1.0 {#v8-1-0}
 
 #### 新功能 {#v8-1-0-features}
