@@ -1,5 +1,11 @@
 # 更新日志
 
+## v8.1.2 {#v8-1-2}
+
+#### bug 修复 {#v8-1-2-bug}
+
+- [#1045](https://github.com/lmk123/crx-selection-translate/issues/1045) 修复谷歌翻译的语音朗读报错问题。
+
 ## v8.1.1 {#v8-1-1}
 
 #### 功能改进 {#v8-1-1-improve}
