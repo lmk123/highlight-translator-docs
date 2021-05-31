@@ -1,5 +1,15 @@
 # 更新日志
 
+## v8.2.0 {#v8-2-0}
+
+#### 功能改进 {#v8-2-0-improve}
+
+- [#732](https://github.com/lmk123/crx-selection-translate/issues/732) 即使翻译源报错了，“查看详细结果”按钮也能点击并跳转到对应的翻译网站。
+
+#### bug 修复 {#v8-2-0-bug}
+
+- [#1043](https://github.com/lmk123/crx-selection-translate/issues/1043) 修复部分英文单词（例如 `process`）没有被翻译为中文的问题。
+
 ## v8.1.2 {#v8-1-2}
 
 #### bug 修复 {#v8-1-2-bug}
