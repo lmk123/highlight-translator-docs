@@ -1,5 +1,11 @@
 # 更新日志
 
+## v8.3.2 {#v8-3-2}
+
+#### 功能改进 {#v8-3-2-improve}
+
+- 将内置 PDF 阅读器版本升级到 [v2.9.359](https://github.com/mozilla/pdf.js/releases/v2.9.359)
+
 ## v8.3.1 {#v8-3-1}
 
 #### bug 修复
