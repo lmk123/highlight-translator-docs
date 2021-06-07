@@ -1,5 +1,11 @@
 # 更新日志
 
+## v8.3.3 {#v8-3-3}
+
+#### bug 修复 {#v8-3-3-bug}
+
+- [#1069](https://github.com/lmk123/crx-selection-translate/issues/1069) 将内置 PDF 阅读器版本降级到 [v2.8.335](https://github.com/mozilla/pdf.js/releases/v2.8.335) 以修复划选出来的文本多出了换行符的问题。
+
 ## v8.3.2 {#v8-3-2}
 
 #### 功能改进 {#v8-3-2-improve}
