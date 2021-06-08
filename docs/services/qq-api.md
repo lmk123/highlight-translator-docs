@@ -3,12 +3,12 @@
 :::tip
 文档内容可能会过时，请以腾讯云平台官网说明为准。
 
-相关链接：[腾讯云机器翻译服务介绍](https://cloud.tencent.com/product/tmt) [腾讯云机器翻译服务定价文档](https://cloud.tencent.com/document/product/551/35017)
+相关链接：[腾讯云机器翻译服务介绍](https://curl.qcloud.com/Ykn2htRP) [腾讯云机器翻译服务定价文档](https://curl.qcloud.com/JAXtzpXl)
 :::
 
 ## 价格 {#prices}
 
-腾讯翻译君**每月的前 500 万字符免费，超出后会无法使用直到下月刷新免费额度；你也可以开通付费版，这样的话超出免费额度也能继续使用，但超出的部分会按照 58 元 / 百万字符收取费用，费用由腾讯翻译在它自己的[腾讯云官方网站](https://cloud.tencent.com/product/tmt)收取，与划词翻译无关。**
+腾讯翻译君**每月的前 500 万字符免费，超出后会无法使用直到下月刷新免费额度；你也可以开通付费版，这样的话超出免费额度也能继续使用，但超出的部分会按照 58 元 / 百万字符收取费用，费用由腾讯翻译在它自己的[腾讯云官方网站](https://curl.qcloud.com/Ykn2htRP)收取，与划词翻译无关。**
 
 ## 申请步骤 {#steps}
 
@@ -16,7 +16,7 @@
 
 在使用腾讯云机器翻译之前，需要进行个人认证。已经认证过的用户可以跳过这个步骤。
 
-登录[腾讯云官网](https://cloud.tencent.com/)，进入[账号信息](https://console.cloud.tencent.com/developer)页面，下图所示的地方可以进行个人认证。
+登录[腾讯云官网](https://curl.qcloud.com/4vzOn2Fe)，鼠标移动到页面右上角的头像上，选择【账号信息】进行个人认证。
 
 ![进行个人认证](./img.png)
 
@@ -24,7 +24,7 @@
 
 ### 第二步：开通腾讯云机器翻译服务 {#open}
 
-打开[腾讯云机器翻译服务介绍](https://cloud.tencent.com/product/tmt)，点击【立即使用】按钮。登录之后，会进入[腾讯机器翻译服务控制台](https://console.cloud.tencent.com/tmt)。
+打开[腾讯云机器翻译服务介绍](https://curl.qcloud.com/Ykn2htRP)，点击【立即使用】按钮。登录之后，会进入腾讯机器翻译服务控制台。
 
 第一次进入会让你选择是开通付费版还是试用版，如下图：
 
