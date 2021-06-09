@@ -3,18 +3,18 @@
 :::tip
 文档内容可能会过时，请以阿里云平台官网说明为准。
 
-相关链接：[阿里云通用版翻译引擎介绍](https://www.aliyun.com/product/ai/base_alimt) [阿里云机器翻译通用版定价文档](https://help.aliyun.com/document_detail/158294.html)
+相关链接：[阿里云通用版翻译引擎介绍](https://www.aliyun.com/product/ai/base_alimt?source=5176.11533457&userCode=wsnup3vv) [阿里云机器翻译通用版定价文档](https://help.aliyun.com/document_detail/158294.html?source=5176.11533457&userCode=wsnup3vv)
 :::
 
 ## 价格 {#prices}
 
-阿里翻译**每月的前 100 万字符免费，超出的部分会按照 50 元 / 百万字符收取费用，费用由阿里翻译在它自己的[阿里云官方网站](https://www.aliyun.com/)收取，与划词翻译无关。**
+阿里翻译**每月的前 100 万字符免费，超出的部分会按照 50 元 / 百万字符收取费用，费用由阿里翻译在它自己的[阿里云官方网站](https://www.aliyun.com/?source=5176.11533457&userCode=wsnup3vv)收取，与划词翻译无关。**
 
 ## 申请步骤 {#steps}
 
 ### 第一步：开通通用版翻译引擎 {#open}
 
-打开[阿里云机器翻译管理控制台](https://mt.console.aliyun.com/basic)，登录成功后，会看到如下界面，然后点击【通用版翻译引擎】下方的【立即开通】按钮。
+打开[阿里云通用版翻译引擎首页](https://www.aliyun.com/product/ai/base_alimt?source=5176.11533457&userCode=wsnup3vv)，点击【立即开通】按钮，登录之后会进入[机器翻译管理控制台](https://mt.console.aliyun.com/basic)并看到如下界面，然后点击【通用版翻译引擎】下方的【立即开通】按钮。
 
 ![立即开通按钮](../../static/ali1.png)
 
@@ -30,7 +30,7 @@
 
 简而言之，在这里创建的 AccessKey 能调用你账号下的所有资源，权限范围太大了，一旦泄露的话影响面很大，所以阿里云建议你创建一个子用户，然后给这个子用户只分配机器翻译的权限，这样的话即使泄露了也只会影响到机器翻译。
 
-但是，**阿里云的子用户还不支持分配机器翻译的访问权限，所以只能在这里创建 AccessKey**。见[支持 RAM 的云服务列表](https://help.aliyun.com/document_detail/28630.html)。
+但是，**阿里云的子用户还不支持分配机器翻译的访问权限，所以只能在这里创建 AccessKey**。见[支持 RAM 的云服务列表](https://help.aliyun.com/document_detail/28630.html?source=5176.11533457&userCode=wsnup3vv)。
 
 #### 使用云账号 AccessKey（更便捷，但不保险） {#use-main}
 
