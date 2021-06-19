@@ -9,17 +9,21 @@ import { LatestVersion } from '../src/components/LatestVersion'
 ### Google Chrome 浏览器 {#chrome}
 
 ![Chrome 扩展商店版本](https://img.shields.io/chrome-web-store/v/ikhdkkncnoglghljlkmcimlnlhkeamad.svg?style=flat-square&label=版本)
-![Chrome 扩展商店用户数](https://img.shields.io/chrome-web-store/d/ikhdkkncnoglghljlkmcimlnlhkeamad.svg?style=flat-square&label=用户数)
+![Chrome 扩展商店用户数](https://img.shields.io/chrome-web-store/d/ikhdkkncnoglghljlkmcimlnlhkeamad.svg?style=flat-square&label=用户数高于)
 ![Chrome 扩展商店评分](https://img.shields.io/chrome-web-store/rating/ikhdkkncnoglghljlkmcimlnlhkeamad?style=flat-square&label=评分)
 
-请前往 [Chrome 扩展商店](https://chrome.google.com/webstore/detail/ikhdkkncnoglghljlkmcimlnlhkeamad)在线安装。新版本提交后大概 2 个工作日完成审核。
+请前往 [Chrome 扩展商店](https://chrome.google.com/webstore/detail/ikhdkkncnoglghljlkmcimlnlhkeamad)在线安装。
 
 ### Microsoft Edge 浏览器 {#edge}
 
 ![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.1.2&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.7/5&color=success&style=flat-square)
 
-请前往 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。新版本提交后大概 5 个工作日完成审核。
+请前往 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。
+
+:::note 为什么 Edge 的版本经常落后于最新版本？
+由于 Edge 扩展商店需要 10 个工作日左右的审核时间，所以 Edge 扩展商店的版本经常比最新版本要落后，你可以通过下面的离线安装包的方式安装最新版本。
+:::
 
 ### Mozilla Firefox 浏览器 {#firefox}
 
@@ -28,7 +32,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 ![Firefox 扩展商店评分](https://img.shields.io/amo/rating/hcfy?style=flat-square&label=评分)
 ![Firefox 扩展商店周下载量](https://img.shields.io/amo/dw/hcfy?style=flat-square&label=周下载量)
 
-请前往 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。新版本提交后大概 10 分钟完成审核。
+请前往 [Firefox 扩展商店](https://addons.mozilla.org/zh-CN/firefox/addon/hcfy/)在线安装。
 
 ## 下载离线安装包手动安装 {#offline}
 
@@ -61,7 +65,17 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 ### 注意 {#note}
 
-- 使用这种方式安装的划词翻译在 Chrome 中也会自动更新。如果你不想自动更新，可以按照以下步骤操作：
+#### 离线安装包在 Chrome 中会自动更新
+
+使用这种方式在 Chrome 中安装的划词翻译仍然会自动更新。如果你不想自动更新，可以按照以下步骤操作：
+
   1. 将离线安装包的 `.crx` 后缀改为 `.zip` 并解压。
   2. 进入扩展程序页（`chrome://extensions/`）并打开【开发者模式】，然后点击“加载已解压的扩展程序”，选择刚才解压出来的文件夹。注意：这个文件夹里应该有一个 manifest.json 文件，如果没有，说明你选错文件夹了。
-- 虽然 Edge 也可以安装这个离线安装包，但会显示为“来自其他源 Chrome Web Store”，我不确定它未来会不会自动更新，所以最好在 Edge 扩展商店上架最新版本后，使用 Edge 扩展商店的版本。
+
+注意：旧版本可能会存在 bug，请尽量不要停留在旧版本。
+
+#### Edge 注意事项
+
+在 Edge 里安装这个离线安装包会显示为“来自其它源”（ID：ikhdkkncnoglghljlkmcimlnlhkeamad），不会覆盖你之前在 Edge 扩展商店安装的“来自 Microsoft Store”的划词翻译（ID：oikmahiipjniocckomdccmplodldodja），安装后需要关闭“来自 Microsoft Store”的划词翻译。
+
+另外，我不确定在 Edge 里“来自其它源”的划词翻译是否会自动更新，所以最好在 Edge 扩展商店的划词翻译更新到最新版本后，换用“来自 Microsoft Store”的划词翻译。
