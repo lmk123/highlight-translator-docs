@@ -16,7 +16,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 
 ### Microsoft Edge 浏览器 {#edge}
 
-![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.1.2&color=informational&style=flat-square)
+![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.3.4&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.7/5&color=success&style=flat-square)
 
 请前往 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。

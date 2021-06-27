@@ -30,6 +30,7 @@ module.exports = {
         'services/ali-api',
         'services/sg-api',
         'services/youdao-api',
+        'services/baidu-ocr',
       ],
     },
   ],

@@ -1,10 +1,10 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   customFields: {
-    latestVersion: '8.3.4',
+    latestVersion: '8.4.0',
   },
   title: '划词翻译',
-  tagline: '简单好用的划词 / 截图 / 全文翻译扩展',
+  tagline: '一站式划词 / 截图 / 网页全文 / 音视频翻译扩展',
   url: 'https://hcfy.limingkai.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

@@ -1,22 +1,22 @@
-# 百度云文字识别接口
+# 百度通用文字识别（高精度版）
 
 :::tip
 文档内容可能会过时，请以百度云官网说明为准。
 
-相关链接：[百度云文字识别介绍](https://cloud.baidu.com/product/ocr_general) [百度云文字识别接口免费额度](https://cloud.baidu.com/doc/OCR/s/fk3h7xu7h)
+相关链接：[百度通用文字识别介绍](https://cloud.baidu.com/product/ocr_general) [百度云文字识别接口免费额度](https://cloud.baidu.com/doc/OCR/s/fk3h7xu7h)
 :::
 
-划词翻译的截图翻译功能可以改为使用百度云文字识别接口将截图转成文字进行翻译，这比划词翻译内置的 [Tesseract OCR](https://tesseract-ocr.github.io/) 要快很多。
+划词翻译的截图翻译功能可以改为使用百度通用文字识别（高精度版）服务将截图转成文字进行翻译，它比划词翻译内置的 [Tesseract OCR](https://tesseract-ocr.github.io/) 更快且更准确。
 
 ## 价格 {#prices}
 
-[百度云文字识别接口每天都有 50,500 次的免费使用额度](https://cloud.baidu.com/doc/OCR/s/fk3h7xu7h)，包含 50,000 次的标准版和 500 次的高精度版。划词翻译会优先使用高精度版，当天用完之后会自动切换为标准版。
+[百度通用文字识别接口（高精度版）每天都有 500 次的免费使用额度](https://cloud.baidu.com/doc/OCR/s/fk3h7xu7h)。
 
 ## 申请步骤 {#steps}
 
 ### 第一步：进行个人认证 {#register}
 
-1. 进入百度云控制台 [https://console.bce.baidu.com/](https://console.bce.baidu.com/)
+1. 进入百度智能云控制台 [https://console.bce.baidu.com/](https://console.bce.baidu.com/)
 2. 完成个人认证
 
 如果你之前申请过[百度翻译接口](baidu-api.md)，那么你已经认证过了。
@@ -35,4 +35,4 @@
 ### 第三步：获取 API Key 和 Secret Key {#fill-in}
 
 1. 应用创建成功后，进入[应用列表](https://console.bce.baidu.com/ai/#/ai/ocr/app/list)
-2. 找到刚才创建的名为“划词翻译”的应用，会看到有两列“API Key”和“Secret Key”，将它们复制进划词翻译的【设置页】-【服务申请】-【百度云文字识别接口】中（v7.6.0 之前的用户填进“设置” - “截图翻译” - ”百度云文字识别接口“中）即可。注意，不要误将 “AppID” 复制进去了。
+2. 找到刚才创建的名为“划词翻译”的应用，会看到有两列“API Key”和“Secret Key”，将它们复制进划词翻译的【设置页】-【服务申请】-【百度通用文字识别（高精度版）】中（v7.6.0 之前的用户填进“设置” - “截图翻译” - ”百度云文字识别接口“中）即可。注意，不要误将 “AppID” 复制进去了。
