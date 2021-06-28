@@ -27,7 +27,7 @@ const FeatureList = [
     description: (
       <>
         自 2013 年 5 月 18 日发布第一个版本至今，划词翻译已持续维护了 8
-        年时间，仅 Chrome 就有近 30 万的活跃用户。
+        年时间，有 35 万活跃用户。
         <a href="/docs/histroy">查看划词翻译大事记</a>
       </>
     ),

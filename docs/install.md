@@ -17,6 +17,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 ### Microsoft Edge 浏览器 {#edge}
 
 ![Edge 扩展商店版本](https://img.shields.io/static/v1?label=版本&message=v8.3.4&color=informational&style=flat-square)
+![Edge 扩展商店用户数](https://img.shields.io/static/v1?label=用户数高于&message=70k&color=informational&style=flat-square)
 ![Edge 扩展商店评分](https://img.shields.io/static/v1?label=评分&message=4.7/5&color=success&style=flat-square)
 
 请前往 [Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/oikmahiipjniocckomdccmplodldodja)在线安装。
@@ -28,7 +29,7 @@ import { LatestVersion } from '../src/components/LatestVersion'
 ### Mozilla Firefox 浏览器 {#firefox}
 
 ![Firefox 扩展商店版本](https://img.shields.io/amo/v/hcfy?style=flat-square&label=版本)
-![Firefox 扩展商店用户数](https://img.shields.io/amo/users/hcfy?style=flat-square&label=用户数)
+![Firefox 扩展商店用户数](https://img.shields.io/amo/users/hcfy?style=flat-square&label=用户数高于)
 ![Firefox 扩展商店评分](https://img.shields.io/amo/rating/hcfy?style=flat-square&label=评分)
 ![Firefox 扩展商店周下载量](https://img.shields.io/amo/dw/hcfy?style=flat-square&label=周下载量)
 
