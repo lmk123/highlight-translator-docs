@@ -1,5 +1,12 @@
 # 更新日志
 
+## v8.4.1（暂未发布） {#v8-4-1}
+
+#### 功能改进 {#v8-4-1-improve}
+
+- [#1087](https://github.com/lmk123/crx-selection-translate/issues/1087) 将必应词典的网络释义显示出来。
+- [#1091](https://github.com/lmk123/crx-selection-translate/issues/1091) 将 DeepL 的“其它翻译结果”分行显示。
+
 ## v8.4.0 {#v8-4-0}
 
 #### 功能改进 {#v8-4-0-improve}
